@@ -1,11 +1,17 @@
 import React from 'react'
-import Title from './components/Title/Title'
+import { Route, Switch } from 'react-router-dom'
 import styles from './App.module.css'
+
+import HomePage from './app/Home/HomePage'
+import ArticlePage from './app/Article/Article'
 
 function App() {
   return (
     <div className={styles.App}>
-      <Title />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/article/:id" component={ArticlePage} />
+      </Switch>
     </div>
   );
 }
