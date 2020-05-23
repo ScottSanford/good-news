@@ -9,6 +9,7 @@ const ArticleGrid = ({ articles }) => {
 		<div className={styles.parent}>
 			{articles.map((anArticle, index) => {
 				const gridClass = styles[`div${index}`]
+
 				return <ArticleGridItem
 					key={anArticle.created_date}
 					article={anArticle}

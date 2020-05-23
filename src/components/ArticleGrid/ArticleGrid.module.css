@@ -1,13 +1,25 @@
+@value colorNeutral10 from '../../theme/constants.module.css';
+
 .parent {
     display: grid;
+    grid-column-gap: 2rem;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-template-rows: repeat(auto-fill, minmax(2rem, 1fr));
+    grid-row-gap: 2rem;
+    grid-auto-columns: 200px;
+    grid-auto-rows: 100px;
+}
+
+.parent > * {
+    align-items: flex-end;
+    border-radius: 1rem;
+    color: colorNeutral10;
+    display: flex;
 }
 
 .div1 {
     grid-area: 1 / 1 / 7 / 5;
+    font-size: 3rem;
 }
 .div2 {
     grid-area: 1 / 5 / 5 / 7;
@@ -16,17 +28,11 @@
     grid-area: 5 / 5 / 9 / 7;
 }
 .div4 {
-    grid-area: 7 / 1 / 11 / 3;
+    grid-area: 7 / 1 / 9 / 3;
 }
 .div5 {
-    grid-area: 7 / 3 / 11 / 5;
+    grid-area: 7 / 3 / 9 / 5;
 }
 .div6 {
-    grid-area: 9 / 5 / 13 / 7;
-}
-.div7 {
-    grid-area: 11 / 1 / 12 / 5;
-}
-.div8 {
-    grid-area: 12 / 1 / 13 / 5;
+    grid-area: 9 / 5 / 11 / 7;
 }

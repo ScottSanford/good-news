@@ -1,0 +1,18 @@
+@value colorNeutral10, fontHead from '../../../theme/constants.module.css';
+
+.articleInfo {
+    background: rgba(0, 0, 0, 0.66);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 100%;
+    padding: 3rem;
+}
+
+.articleTitle {
+    font-family: fontHead;
+}
+
+.articleDate {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}

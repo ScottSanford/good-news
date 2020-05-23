@@ -1,7 +1,7 @@
 @import url('https://use.typekit.net/jwl2rvr.css');
 @import url('https://use.typekit.net/jwl2rvr.css');
 
-@value colorNeutral10, fontBody from './theme/constants.module.css';
+@value colorNeutral9, fontBody from './theme/constants.module.css';
 
 * {
     margin: 0;
@@ -20,7 +20,7 @@ html {
 }
 
 .App {
-    background: colorNeutral10;
+    background: colorNeutral9;
     font-family: fontBody;
     font-weight: 800;
     height: 100vh;
