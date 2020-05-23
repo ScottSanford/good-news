@@ -510,569 +510,569 @@ export default [
 		],
 		"short_url": "https://nyti.ms/3edZXeG"
 	},
-	{
-		"section": "arts",
-		"subsection": "design",
-		"title": "Brazil’s First Indigenous Curator: ‘We’re Not Afraid Anymore’",
-		"abstract": "Sandra Benites, of the Guaraní Ñandeva people, is using art to bring new visions and voices to the museum world.",
-		"url": "https://www.nytimes.com/2020/05/22/arts/design/sandra-benites-brazil-museum-curator.html",
-		"uri": "nyt://article/b4498067-9250-5a15-ad14-13a913b0ca61",
-		"byline": "By Jill Langlois",
-		"item_type": "Article",
-		"updated_date": "2020-05-23T09:46:46-04:00",
-		"created_date": "2020-05-22T05:00:14-04:00",
-		"published_date": "2020-05-22T05:00:14-04:00",
-		"material_type_facet": "",
-		"kicker": "",
-		"des_facet": [
-			"Art",
-			"Museums",
-			"Indigenous People"
-		],
-		"org_facet": [
-			"Museum of Art of Sao Paulo Assis Chateaubriand"
-		],
-		"per_facet": [
-			"Benites, Sandra"
-		],
-		"geo_facet": [
-			"Brazil",
-			"Sao Paulo (Brazil)",
-			"Javari Valley (Brazil)",
-			"Amazon Jungle"
-		],
-		"multimedia": [
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/merlin_169131819_0cde1a57-5ebc-4f44-bd81-c10489a79ff5-superJumbo.jpg",
-				"format": "superJumbo",
-				"height": 1365,
-				"width": 2048,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
-				"copyright": "Gabriela Portilho for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/31benites1-thumbStandard.jpg",
-				"format": "Standard Thumbnail",
-				"height": 75,
-				"width": 75,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
-				"copyright": "Gabriela Portilho for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/31benites1-thumbLarge.jpg",
-				"format": "thumbLarge",
-				"height": 150,
-				"width": 150,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
-				"copyright": "Gabriela Portilho for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/31benites1-mediumThreeByTwo210-v2.jpg",
-				"format": "mediumThreeByTwo210",
-				"height": 140,
-				"width": 210,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
-				"copyright": "Gabriela Portilho for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/merlin_169131819_0cde1a57-5ebc-4f44-bd81-c10489a79ff5-articleInline.jpg",
-				"format": "Normal",
-				"height": 127,
-				"width": 190,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
-				"copyright": "Gabriela Portilho for The New York Times"
-			}
-		],
-		"short_url": "https://nyti.ms/2TKUcxh"
-	},
-	{
-		"section": "arts",
-		"subsection": "",
-		"title": "Can You Gather With God Over Zoom?",
-		"abstract": "Quakerism goes virtual, offering an intimate window into silent worship.",
-		"url": "https://www.nytimes.com/2020/05/22/arts/quaker-meeting-zoom.html",
-		"uri": "nyt://article/07004f4d-ede5-5d2c-91df-6962a8b3304b",
-		"byline": "By Bianca Giaever",
-		"item_type": "Article",
-		"updated_date": "2020-05-22T21:27:15-04:00",
-		"created_date": "2020-05-22T05:01:00-04:00",
-		"published_date": "2020-05-22T05:01:00-04:00",
-		"material_type_facet": "",
-		"kicker": "",
-		"des_facet": [
-			"Quakers",
-			"Religion and Belief",
-			"Quarantine (Life and Culture)"
-		],
-		"org_facet": [
-			"Zoom Video Communications"
-		],
-		"per_facet": [],
-		"geo_facet": [],
-		"multimedia": [
-			{
-				"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-45-superJumbo.jpg",
-				"format": "superJumbo",
-				"height": 1177,
-				"width": 2048,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
-				"copyright": "Bianca Giaever/The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-promo-thumbStandard.jpg",
-				"format": "Standard Thumbnail",
-				"height": 75,
-				"width": 75,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
-				"copyright": "Bianca Giaever/The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-promo-thumbLarge.jpg",
-				"format": "thumbLarge",
-				"height": 150,
-				"width": 150,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
-				"copyright": "Bianca Giaever/The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-promo-mediumThreeByTwo210.jpg",
-				"format": "mediumThreeByTwo210",
-				"height": 140,
-				"width": 210,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
-				"copyright": "Bianca Giaever/The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-45-articleInline.jpg",
-				"format": "Normal",
-				"height": 109,
-				"width": 190,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
-				"copyright": "Bianca Giaever/The New York Times"
-			}
-		],
-		"short_url": "https://nyti.ms/2LMlP4B"
-	},
-	{
-		"section": "arts",
-		"subsection": "music",
-		"title": "A Philip Glass Score Was Lost. 50 Years Later, Here It Is.",
-		"abstract": "“Music in Eight Parts” has finally been reconstructed and recorded.",
-		"url": "https://www.nytimes.com/2020/05/22/arts/music/philip-glass-music-in-eight-parts.html",
-		"uri": "nyt://article/aa0554ad-9186-5aaf-a750-d5a451bd6007",
-		"byline": "By Joshua Barone",
-		"item_type": "Article",
-		"updated_date": "2020-05-22T23:54:46-04:00",
-		"created_date": "2020-05-22T13:28:42-04:00",
-		"published_date": "2020-05-22T13:28:42-04:00",
-		"material_type_facet": "",
-		"kicker": "",
-		"des_facet": [
-			"Classical Music",
-			"Music in Eight Parts (Musical Work)"
-		],
-		"org_facet": [
-			"Glass, Philip, Ensemble",
-			"Orange Mountain Music"
-		],
-		"per_facet": [
-			"Glass, Philip",
-			"Bielawa, Lisa",
-			"Gray, Alex (Composer)",
-			"Riesman, Michael"
-		],
-		"geo_facet": [],
-		"multimedia": [
-			{
-				"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/merlin_163581111_388597de-9c5b-4b38-8d4f-cb3a264d90cc-superJumbo.jpg",
-				"format": "superJumbo",
-				"height": 2048,
-				"width": 1631,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The composer last year.",
-				"copyright": "Eva O'Leary for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/22PHILIPGLASS-4-thumbStandard.jpg",
-				"format": "Standard Thumbnail",
-				"height": 75,
-				"width": 75,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The composer last year.",
-				"copyright": "Eva O'Leary for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/22PHILIPGLASS-4-thumbLarge.jpg",
-				"format": "thumbLarge",
-				"height": 150,
-				"width": 150,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The composer last year.",
-				"copyright": "Eva O'Leary for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/22PHILIPGLASS-4-mediumThreeByTwo210.jpg",
-				"format": "mediumThreeByTwo210",
-				"height": 140,
-				"width": 210,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The composer last year.",
-				"copyright": "Eva O'Leary for The New York Times"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/merlin_163581111_388597de-9c5b-4b38-8d4f-cb3a264d90cc-articleInline.jpg",
-				"format": "Normal",
-				"height": 239,
-				"width": 190,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The composer last year.",
-				"copyright": "Eva O'Leary for The New York Times"
-			}
-		],
-		"short_url": "https://nyti.ms/3eafsUD"
-	},
-	{
-		"section": "arts",
-		"subsection": "music",
-		"title": "John Macurdy, Stalwart Bass in Roles Large and Small, Dies at 91",
-		"abstract": "During a 38-year career with the Metropolitan Opera, he sang 1,001 performances, drawing notice for his performances in Wagner, Verdi and Mozart.",
-		"url": "https://www.nytimes.com/2020/05/23/arts/music/john-macurdy-dead.html",
-		"uri": "nyt://article/3becb539-c903-5354-86bd-ae0b8c04d4e5",
-		"byline": "By Anthony Tommasini",
-		"item_type": "Article",
-		"updated_date": "2020-05-23T13:02:39-04:00",
-		"created_date": "2020-05-23T13:02:39-04:00",
-		"published_date": "2020-05-23T13:02:39-04:00",
-		"material_type_facet": "",
-		"kicker": "",
-		"des_facet": [
-			"Opera",
-			"Classical Music",
-			"Deaths (Obituaries)"
-		],
-		"org_facet": [
-			"Metropolitan Opera"
-		],
-		"per_facet": [
-			"Macurdy, John"
-		],
-		"geo_facet": [],
-		"multimedia": [
-			{
-				"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-superJumbo.jpg",
-				"format": "superJumbo",
-				"height": 2048,
-				"width": 1735,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
-				"copyright": "Louis Mélançon/Metropolitan Opera"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-thumbStandard.jpg",
-				"format": "Standard Thumbnail",
-				"height": 75,
-				"width": 75,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
-				"copyright": "Louis Mélançon/Metropolitan Opera"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-thumbLarge.jpg",
-				"format": "thumbLarge",
-				"height": 150,
-				"width": 150,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
-				"copyright": "Louis Mélançon/Metropolitan Opera"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-mediumThreeByTwo210.jpg",
-				"format": "mediumThreeByTwo210",
-				"height": 140,
-				"width": 210,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
-				"copyright": "Louis Mélançon/Metropolitan Opera"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-articleInline.jpg",
-				"format": "Normal",
-				"height": 224,
-				"width": 190,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
-				"copyright": "Louis Mélançon/Metropolitan Opera"
-			}
-		],
-		"short_url": "https://nyti.ms/2zs94JR"
-	},
-	{
-		"section": "us",
-		"subsection": "",
-		"title": "Together, Alone: The Car as Shelter in the Pandemic",
-		"abstract": "The fears of infection from the coronavirus have created a new role in society for the automobile, where birthdays, weddings and other events are being celebrated.",
-		"url": "https://www.nytimes.com/2020/05/23/us/drive-by-graduation-baby-shower-drive-in.html",
-		"uri": "nyt://article/7f97ab32-7c6a-5e27-83f1-5b5df4b7bee3",
-		"byline": "By Christine Hauser and Judith Levitt",
-		"item_type": "Article",
-		"updated_date": "2020-05-23T15:32:26-04:00",
-		"created_date": "2020-05-23T09:02:42-04:00",
-		"published_date": "2020-05-23T09:02:42-04:00",
-		"material_type_facet": "",
-		"kicker": "",
-		"des_facet": [
-			"Automobiles",
-			"Coronavirus (2019-nCoV)",
-			"Parking Garages and Lots",
-			"Art",
-			"Drive-in Theaters",
-			"Quarantine (Life and Culture)",
-			"Shutdowns (Institutional)"
-		],
-		"org_facet": [],
-		"per_facet": [],
-		"geo_facet": [],
-		"multimedia": [
-			{
-				"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/merlin_172545384_72a46618-46fb-479e-8715-06abdfba1e07-superJumbo.jpg",
-				"format": "superJumbo",
-				"height": 1365,
-				"width": 2048,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
-				"copyright": "John Minchillo/Associated Press"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/21xp-virus-drivein-1-thumbStandard.jpg",
-				"format": "Standard Thumbnail",
-				"height": 75,
-				"width": 75,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
-				"copyright": "John Minchillo/Associated Press"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/21xp-virus-drivein-1-thumbLarge.jpg",
-				"format": "thumbLarge",
-				"height": 150,
-				"width": 150,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
-				"copyright": "John Minchillo/Associated Press"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/merlin_172545384_72a46618-46fb-479e-8715-06abdfba1e07-mediumThreeByTwo210.jpg",
-				"format": "mediumThreeByTwo210",
-				"height": 140,
-				"width": 210,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
-				"copyright": "John Minchillo/Associated Press"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/merlin_172545384_72a46618-46fb-479e-8715-06abdfba1e07-articleInline.jpg",
-				"format": "Normal",
-				"height": 127,
-				"width": 190,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
-				"copyright": "John Minchillo/Associated Press"
-			}
-		],
-		"short_url": "https://nyti.ms/36r3S51"
-	},
-	{
-		"section": "business",
-		"subsection": "",
-		"title": "A Feud in Wolf-Kink Erotica Raises a Deep Legal Question",
-		"abstract": "What do copyright and authorship mean in the crowdsourced realm known as the Omegaverse?",
-		"url": "https://www.nytimes.com/2020/05/23/business/omegaverse-erotica-copyright.html",
-		"uri": "nyt://article/bdecfe06-ff05-5c88-bf07-30f702e44339",
-		"byline": "By Alexandra Alter",
-		"item_type": "Article",
-		"updated_date": "2020-05-23T14:18:00-04:00",
-		"created_date": "2020-05-23T05:00:25-04:00",
-		"published_date": "2020-05-23T05:00:25-04:00",
-		"material_type_facet": "",
-		"kicker": "",
-		"des_facet": [
-			"Writing and Writers",
-			"Copyrights and Copyright Violations",
-			"Book Trade and Publishing",
-			"Books and Literature",
-			"Suits and Litigation (Civil)",
-			"Trademarks and Trade Names"
-		],
-		"org_facet": [],
-		"per_facet": [
-			"Cain, Addison",
-			"Ellis, Zoey"
-		],
-		"geo_facet": [],
-		"multimedia": [
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-superJumbo.jpg",
-				"format": "superJumbo",
-				"height": 2048,
-				"width": 1639,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
-				"copyright": "Alamy"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-thumbStandard.jpg",
-				"format": "Standard Thumbnail",
-				"height": 75,
-				"width": 75,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
-				"copyright": "Alamy"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-thumbLarge.jpg",
-				"format": "thumbLarge",
-				"height": 150,
-				"width": 150,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
-				"copyright": "Alamy"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-mediumThreeByTwo210.jpg",
-				"format": "mediumThreeByTwo210",
-				"height": 140,
-				"width": 210,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
-				"copyright": "Alamy"
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-articleInline.jpg",
-				"format": "Normal",
-				"height": 238,
-				"width": 190,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
-				"copyright": "Alamy"
-			}
-		],
-		"short_url": "https://nyti.ms/2A4HW3m"
-	},
-	{
-		"section": "style",
-		"subsection": "",
-		"title": "The Drones Were Ready for This Moment",
-		"abstract": "While humans hunker below, aerial robots are taking over as cops, street cleaners, medical assistants, delivery workers and soon — friends?",
-		"url": "https://www.nytimes.com/2020/05/23/style/drones-coronavirus.html",
-		"uri": "nyt://article/3b4d52c3-8bac-5f51-8f74-a998025d4224",
-		"byline": "By Alex Williams",
-		"item_type": "Article",
-		"updated_date": "2020-05-23T05:00:13-04:00",
-		"created_date": "2020-05-23T05:00:13-04:00",
-		"published_date": "2020-05-23T05:00:13-04:00",
-		"material_type_facet": "",
-		"kicker": "",
-		"des_facet": [
-			"Drones (Pilotless Planes)",
-			"Quarantine (Life and Culture)",
-			"Coronavirus (2019-nCoV)",
-			"Robots and Robotics"
-		],
-		"org_facet": [],
-		"per_facet": [],
-		"geo_facet": [],
-		"multimedia": [
-			{
-				"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-superJumbo.jpg",
-				"format": "superJumbo",
-				"height": 857,
-				"width": 2048,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "",
-				"copyright": ""
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-thumbStandard.jpg",
-				"format": "Standard Thumbnail",
-				"height": 75,
-				"width": 75,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "",
-				"copyright": ""
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-thumbLarge.jpg",
-				"format": "thumbLarge",
-				"height": 150,
-				"width": 150,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "",
-				"copyright": ""
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-mediumThreeByTwo210-v2.jpg",
-				"format": "mediumThreeByTwo210",
-				"height": 140,
-				"width": 210,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "",
-				"copyright": ""
-			},
-			{
-				"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-articleInline.jpg",
-				"format": "Normal",
-				"height": 79,
-				"width": 190,
-				"type": "image",
-				"subtype": "photo",
-				"caption": "",
-				"copyright": ""
-			}
-		],
-		"short_url": "https://nyti.ms/2zeuwC7"
-	}
+	// {
+	// 	"section": "arts",
+	// 	"subsection": "design",
+	// 	"title": "Brazil’s First Indigenous Curator: ‘We’re Not Afraid Anymore’",
+	// 	"abstract": "Sandra Benites, of the Guaraní Ñandeva people, is using art to bring new visions and voices to the museum world.",
+	// 	"url": "https://www.nytimes.com/2020/05/22/arts/design/sandra-benites-brazil-museum-curator.html",
+	// 	"uri": "nyt://article/b4498067-9250-5a15-ad14-13a913b0ca61",
+	// 	"byline": "By Jill Langlois",
+	// 	"item_type": "Article",
+	// 	"updated_date": "2020-05-23T09:46:46-04:00",
+	// 	"created_date": "2020-05-22T05:00:14-04:00",
+	// 	"published_date": "2020-05-22T05:00:14-04:00",
+	// 	"material_type_facet": "",
+	// 	"kicker": "",
+	// 	"des_facet": [
+	// 		"Art",
+	// 		"Museums",
+	// 		"Indigenous People"
+	// 	],
+	// 	"org_facet": [
+	// 		"Museum of Art of Sao Paulo Assis Chateaubriand"
+	// 	],
+	// 	"per_facet": [
+	// 		"Benites, Sandra"
+	// 	],
+	// 	"geo_facet": [
+	// 		"Brazil",
+	// 		"Sao Paulo (Brazil)",
+	// 		"Javari Valley (Brazil)",
+	// 		"Amazon Jungle"
+	// 	],
+	// 	"multimedia": [
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/merlin_169131819_0cde1a57-5ebc-4f44-bd81-c10489a79ff5-superJumbo.jpg",
+	// 			"format": "superJumbo",
+	// 			"height": 1365,
+	// 			"width": 2048,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
+	// 			"copyright": "Gabriela Portilho for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/31benites1-thumbStandard.jpg",
+	// 			"format": "Standard Thumbnail",
+	// 			"height": 75,
+	// 			"width": 75,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
+	// 			"copyright": "Gabriela Portilho for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/31benites1-thumbLarge.jpg",
+	// 			"format": "thumbLarge",
+	// 			"height": 150,
+	// 			"width": 150,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
+	// 			"copyright": "Gabriela Portilho for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/31benites1-mediumThreeByTwo210-v2.jpg",
+	// 			"format": "mediumThreeByTwo210",
+	// 			"height": 140,
+	// 			"width": 210,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
+	// 			"copyright": "Gabriela Portilho for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/arts/31benites1/merlin_169131819_0cde1a57-5ebc-4f44-bd81-c10489a79ff5-articleInline.jpg",
+	// 			"format": "Normal",
+	// 			"height": 127,
+	// 			"width": 190,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The art curator Sandra Benites at the Museum of Art of São Paulo Assis Chateaubriand, with “Facões” by Sallisa Rosa, from her photo series “Resistance.” These types of knives are a symbol of survival and resistance for rural Indigenous workers.",
+	// 			"copyright": "Gabriela Portilho for The New York Times"
+	// 		}
+	// 	],
+	// 	"short_url": "https://nyti.ms/2TKUcxh"
+	// },
+	// {
+	// 	"section": "arts",
+	// 	"subsection": "",
+	// 	"title": "Can You Gather With God Over Zoom?",
+	// 	"abstract": "Quakerism goes virtual, offering an intimate window into silent worship.",
+	// 	"url": "https://www.nytimes.com/2020/05/22/arts/quaker-meeting-zoom.html",
+	// 	"uri": "nyt://article/07004f4d-ede5-5d2c-91df-6962a8b3304b",
+	// 	"byline": "By Bianca Giaever",
+	// 	"item_type": "Article",
+	// 	"updated_date": "2020-05-22T21:27:15-04:00",
+	// 	"created_date": "2020-05-22T05:01:00-04:00",
+	// 	"published_date": "2020-05-22T05:01:00-04:00",
+	// 	"material_type_facet": "",
+	// 	"kicker": "",
+	// 	"des_facet": [
+	// 		"Quakers",
+	// 		"Religion and Belief",
+	// 		"Quarantine (Life and Culture)"
+	// 	],
+	// 	"org_facet": [
+	// 		"Zoom Video Communications"
+	// 	],
+	// 	"per_facet": [],
+	// 	"geo_facet": [],
+	// 	"multimedia": [
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-45-superJumbo.jpg",
+	// 			"format": "superJumbo",
+	// 			"height": 1177,
+	// 			"width": 2048,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
+	// 			"copyright": "Bianca Giaever/The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-promo-thumbStandard.jpg",
+	// 			"format": "Standard Thumbnail",
+	// 			"height": 75,
+	// 			"width": 75,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
+	// 			"copyright": "Bianca Giaever/The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-promo-thumbLarge.jpg",
+	// 			"format": "thumbLarge",
+	// 			"height": 150,
+	// 			"width": 150,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
+	// 			"copyright": "Bianca Giaever/The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-promo-mediumThreeByTwo210.jpg",
+	// 			"format": "mediumThreeByTwo210",
+	// 			"height": 140,
+	// 			"width": 210,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
+	// 			"copyright": "Bianca Giaever/The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/22/arts/22SURFACING-QUAKERS-promo/22SURFACING-QUAKERS-45-articleInline.jpg",
+	// 			"format": "Normal",
+	// 			"height": 109,
+	// 			"width": 190,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Mahayana Landowne, 51, worships in her childhood backyard in South Miami, Fla.",
+	// 			"copyright": "Bianca Giaever/The New York Times"
+	// 		}
+	// 	],
+	// 	"short_url": "https://nyti.ms/2LMlP4B"
+	// },
+	// {
+	// 	"section": "arts",
+	// 	"subsection": "music",
+	// 	"title": "A Philip Glass Score Was Lost. 50 Years Later, Here It Is.",
+	// 	"abstract": "“Music in Eight Parts” has finally been reconstructed and recorded.",
+	// 	"url": "https://www.nytimes.com/2020/05/22/arts/music/philip-glass-music-in-eight-parts.html",
+	// 	"uri": "nyt://article/aa0554ad-9186-5aaf-a750-d5a451bd6007",
+	// 	"byline": "By Joshua Barone",
+	// 	"item_type": "Article",
+	// 	"updated_date": "2020-05-22T23:54:46-04:00",
+	// 	"created_date": "2020-05-22T13:28:42-04:00",
+	// 	"published_date": "2020-05-22T13:28:42-04:00",
+	// 	"material_type_facet": "",
+	// 	"kicker": "",
+	// 	"des_facet": [
+	// 		"Classical Music",
+	// 		"Music in Eight Parts (Musical Work)"
+	// 	],
+	// 	"org_facet": [
+	// 		"Glass, Philip, Ensemble",
+	// 		"Orange Mountain Music"
+	// 	],
+	// 	"per_facet": [
+	// 		"Glass, Philip",
+	// 		"Bielawa, Lisa",
+	// 		"Gray, Alex (Composer)",
+	// 		"Riesman, Michael"
+	// 	],
+	// 	"geo_facet": [],
+	// 	"multimedia": [
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/merlin_163581111_388597de-9c5b-4b38-8d4f-cb3a264d90cc-superJumbo.jpg",
+	// 			"format": "superJumbo",
+	// 			"height": 2048,
+	// 			"width": 1631,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The composer last year.",
+	// 			"copyright": "Eva O'Leary for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/22PHILIPGLASS-4-thumbStandard.jpg",
+	// 			"format": "Standard Thumbnail",
+	// 			"height": 75,
+	// 			"width": 75,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The composer last year.",
+	// 			"copyright": "Eva O'Leary for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/22PHILIPGLASS-4-thumbLarge.jpg",
+	// 			"format": "thumbLarge",
+	// 			"height": 150,
+	// 			"width": 150,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The composer last year.",
+	// 			"copyright": "Eva O'Leary for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/22PHILIPGLASS-4-mediumThreeByTwo210.jpg",
+	// 			"format": "mediumThreeByTwo210",
+	// 			"height": 140,
+	// 			"width": 210,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The composer last year.",
+	// 			"copyright": "Eva O'Leary for The New York Times"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/23/arts/22PHILIPGLASS-4/merlin_163581111_388597de-9c5b-4b38-8d4f-cb3a264d90cc-articleInline.jpg",
+	// 			"format": "Normal",
+	// 			"height": 239,
+	// 			"width": 190,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The composer last year.",
+	// 			"copyright": "Eva O'Leary for The New York Times"
+	// 		}
+	// 	],
+	// 	"short_url": "https://nyti.ms/3eafsUD"
+	// },
+	// {
+	// 	"section": "arts",
+	// 	"subsection": "music",
+	// 	"title": "John Macurdy, Stalwart Bass in Roles Large and Small, Dies at 91",
+	// 	"abstract": "During a 38-year career with the Metropolitan Opera, he sang 1,001 performances, drawing notice for his performances in Wagner, Verdi and Mozart.",
+	// 	"url": "https://www.nytimes.com/2020/05/23/arts/music/john-macurdy-dead.html",
+	// 	"uri": "nyt://article/3becb539-c903-5354-86bd-ae0b8c04d4e5",
+	// 	"byline": "By Anthony Tommasini",
+	// 	"item_type": "Article",
+	// 	"updated_date": "2020-05-23T13:02:39-04:00",
+	// 	"created_date": "2020-05-23T13:02:39-04:00",
+	// 	"published_date": "2020-05-23T13:02:39-04:00",
+	// 	"material_type_facet": "",
+	// 	"kicker": "",
+	// 	"des_facet": [
+	// 		"Opera",
+	// 		"Classical Music",
+	// 		"Deaths (Obituaries)"
+	// 	],
+	// 	"org_facet": [
+	// 		"Metropolitan Opera"
+	// 	],
+	// 	"per_facet": [
+	// 		"Macurdy, John"
+	// 	],
+	// 	"geo_facet": [],
+	// 	"multimedia": [
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-superJumbo.jpg",
+	// 			"format": "superJumbo",
+	// 			"height": 2048,
+	// 			"width": 1735,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
+	// 			"copyright": "Louis Mélançon/Metropolitan Opera"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-thumbStandard.jpg",
+	// 			"format": "Standard Thumbnail",
+	// 			"height": 75,
+	// 			"width": 75,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
+	// 			"copyright": "Louis Mélançon/Metropolitan Opera"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-thumbLarge.jpg",
+	// 			"format": "thumbLarge",
+	// 			"height": 150,
+	// 			"width": 150,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
+	// 			"copyright": "Louis Mélançon/Metropolitan Opera"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-mediumThreeByTwo210.jpg",
+	// 			"format": "mediumThreeByTwo210",
+	// 			"height": 140,
+	// 			"width": 210,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
+	// 			"copyright": "Louis Mélançon/Metropolitan Opera"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/21/obituaries/Macurdy2/Macurdy2-articleInline.jpg",
+	// 			"format": "Normal",
+	// 			"height": 224,
+	// 			"width": 190,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "The bass John Macurdy as King Heinrich in Wagner’s “Lohengrin.” He performed 1,001 times at the Metropolitan Opera.",
+	// 			"copyright": "Louis Mélançon/Metropolitan Opera"
+	// 		}
+	// 	],
+	// 	"short_url": "https://nyti.ms/2zs94JR"
+	// },
+	// {
+	// 	"section": "us",
+	// 	"subsection": "",
+	// 	"title": "Together, Alone: The Car as Shelter in the Pandemic",
+	// 	"abstract": "The fears of infection from the coronavirus have created a new role in society for the automobile, where birthdays, weddings and other events are being celebrated.",
+	// 	"url": "https://www.nytimes.com/2020/05/23/us/drive-by-graduation-baby-shower-drive-in.html",
+	// 	"uri": "nyt://article/7f97ab32-7c6a-5e27-83f1-5b5df4b7bee3",
+	// 	"byline": "By Christine Hauser and Judith Levitt",
+	// 	"item_type": "Article",
+	// 	"updated_date": "2020-05-23T15:32:26-04:00",
+	// 	"created_date": "2020-05-23T09:02:42-04:00",
+	// 	"published_date": "2020-05-23T09:02:42-04:00",
+	// 	"material_type_facet": "",
+	// 	"kicker": "",
+	// 	"des_facet": [
+	// 		"Automobiles",
+	// 		"Coronavirus (2019-nCoV)",
+	// 		"Parking Garages and Lots",
+	// 		"Art",
+	// 		"Drive-in Theaters",
+	// 		"Quarantine (Life and Culture)",
+	// 		"Shutdowns (Institutional)"
+	// 	],
+	// 	"org_facet": [],
+	// 	"per_facet": [],
+	// 	"geo_facet": [],
+	// 	"multimedia": [
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/merlin_172545384_72a46618-46fb-479e-8715-06abdfba1e07-superJumbo.jpg",
+	// 			"format": "superJumbo",
+	// 			"height": 1365,
+	// 			"width": 2048,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
+	// 			"copyright": "John Minchillo/Associated Press"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/21xp-virus-drivein-1-thumbStandard.jpg",
+	// 			"format": "Standard Thumbnail",
+	// 			"height": 75,
+	// 			"width": 75,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
+	// 			"copyright": "John Minchillo/Associated Press"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/21xp-virus-drivein-1-thumbLarge.jpg",
+	// 			"format": "thumbLarge",
+	// 			"height": 150,
+	// 			"width": 150,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
+	// 			"copyright": "John Minchillo/Associated Press"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/merlin_172545384_72a46618-46fb-479e-8715-06abdfba1e07-mediumThreeByTwo210.jpg",
+	// 			"format": "mediumThreeByTwo210",
+	// 			"height": 140,
+	// 			"width": 210,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
+	// 			"copyright": "John Minchillo/Associated Press"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/06/21/multimedia/21xp-virus-drivein-1/merlin_172545384_72a46618-46fb-479e-8715-06abdfba1e07-articleInline.jpg",
+	// 			"format": "Normal",
+	// 			"height": 127,
+	// 			"width": 190,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "A showing of “Trolls World Tour” at the Four Brothers Drive-In in Amenia, N.Y.",
+	// 			"copyright": "John Minchillo/Associated Press"
+	// 		}
+	// 	],
+	// 	"short_url": "https://nyti.ms/36r3S51"
+	// },
+	// {
+	// 	"section": "business",
+	// 	"subsection": "",
+	// 	"title": "A Feud in Wolf-Kink Erotica Raises a Deep Legal Question",
+	// 	"abstract": "What do copyright and authorship mean in the crowdsourced realm known as the Omegaverse?",
+	// 	"url": "https://www.nytimes.com/2020/05/23/business/omegaverse-erotica-copyright.html",
+	// 	"uri": "nyt://article/bdecfe06-ff05-5c88-bf07-30f702e44339",
+	// 	"byline": "By Alexandra Alter",
+	// 	"item_type": "Article",
+	// 	"updated_date": "2020-05-23T14:18:00-04:00",
+	// 	"created_date": "2020-05-23T05:00:25-04:00",
+	// 	"published_date": "2020-05-23T05:00:25-04:00",
+	// 	"material_type_facet": "",
+	// 	"kicker": "",
+	// 	"des_facet": [
+	// 		"Writing and Writers",
+	// 		"Copyrights and Copyright Violations",
+	// 		"Book Trade and Publishing",
+	// 		"Books and Literature",
+	// 		"Suits and Litigation (Civil)",
+	// 		"Trademarks and Trade Names"
+	// 	],
+	// 	"org_facet": [],
+	// 	"per_facet": [
+	// 		"Cain, Addison",
+	// 		"Ellis, Zoey"
+	// 	],
+	// 	"geo_facet": [],
+	// 	"multimedia": [
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-superJumbo.jpg",
+	// 			"format": "superJumbo",
+	// 			"height": 2048,
+	// 			"width": 1639,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
+	// 			"copyright": "Alamy"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-thumbStandard.jpg",
+	// 			"format": "Standard Thumbnail",
+	// 			"height": 75,
+	// 			"width": 75,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
+	// 			"copyright": "Alamy"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-thumbLarge.jpg",
+	// 			"format": "thumbLarge",
+	// 			"height": 150,
+	// 			"width": 150,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
+	// 			"copyright": "Alamy"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-mediumThreeByTwo210.jpg",
+	// 			"format": "mediumThreeByTwo210",
+	// 			"height": 140,
+	// 			"width": 210,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
+	// 			"copyright": "Alamy"
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/24/business/00omegaverse-04/00omegaverse-04-articleInline.jpg",
+	// 			"format": "Normal",
+	// 			"height": 238,
+	// 			"width": 190,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "Omegaverse stories typically feature characters arranged into a wolfpack-like hierarchy of dominant Alphas, neutral Betas and submissive Omegas — plus lots of lupine sex.",
+	// 			"copyright": "Alamy"
+	// 		}
+	// 	],
+	// 	"short_url": "https://nyti.ms/2A4HW3m"
+	// },
+	// {
+	// 	"section": "style",
+	// 	"subsection": "",
+	// 	"title": "The Drones Were Ready for This Moment",
+	// 	"abstract": "While humans hunker below, aerial robots are taking over as cops, street cleaners, medical assistants, delivery workers and soon — friends?",
+	// 	"url": "https://www.nytimes.com/2020/05/23/style/drones-coronavirus.html",
+	// 	"uri": "nyt://article/3b4d52c3-8bac-5f51-8f74-a998025d4224",
+	// 	"byline": "By Alex Williams",
+	// 	"item_type": "Article",
+	// 	"updated_date": "2020-05-23T05:00:13-04:00",
+	// 	"created_date": "2020-05-23T05:00:13-04:00",
+	// 	"published_date": "2020-05-23T05:00:13-04:00",
+	// 	"material_type_facet": "",
+	// 	"kicker": "",
+	// 	"des_facet": [
+	// 		"Drones (Pilotless Planes)",
+	// 		"Quarantine (Life and Culture)",
+	// 		"Coronavirus (2019-nCoV)",
+	// 		"Robots and Robotics"
+	// 	],
+	// 	"org_facet": [],
+	// 	"per_facet": [],
+	// 	"geo_facet": [],
+	// 	"multimedia": [
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-superJumbo.jpg",
+	// 			"format": "superJumbo",
+	// 			"height": 857,
+	// 			"width": 2048,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "",
+	// 			"copyright": ""
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-thumbStandard.jpg",
+	// 			"format": "Standard Thumbnail",
+	// 			"height": 75,
+	// 			"width": 75,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "",
+	// 			"copyright": ""
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-thumbLarge.jpg",
+	// 			"format": "thumbLarge",
+	// 			"height": 150,
+	// 			"width": 150,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "",
+	// 			"copyright": ""
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-mediumThreeByTwo210-v2.jpg",
+	// 			"format": "mediumThreeByTwo210",
+	// 			"height": 140,
+	// 			"width": 210,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "",
+	// 			"copyright": ""
+	// 		},
+	// 		{
+	// 			"url": "https://static01.nyt.com/images/2020/05/25/style/25drones-still-1/25drones-still-1-articleInline.jpg",
+	// 			"format": "Normal",
+	// 			"height": 79,
+	// 			"width": 190,
+	// 			"type": "image",
+	// 			"subtype": "photo",
+	// 			"caption": "",
+	// 			"copyright": ""
+	// 		}
+	// 	],
+	// 	"short_url": "https://nyti.ms/2zeuwC7"
+	// }
 ]

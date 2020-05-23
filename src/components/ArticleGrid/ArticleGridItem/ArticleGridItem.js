@@ -11,7 +11,7 @@ function articleImage(img) {
 		backgroundPosition: 'center',
 		minWidth: '100%',
 		minHeight: '100%',
-		position: 'relative',
+		// position: 'relative',
 	}
 }
 
