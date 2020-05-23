@@ -1,6 +1,6 @@
-@value colorPrimary1 from './theme/constants.module.css';
+@value colorNeutral5 from './theme/constants.module.css';
 
 .App {
-    background: colorPrimary1;
+    background: colorNeutral5;
     height: 100vh;
 }

@@ -4,66 +4,69 @@
 */
 
 /* Primary colors */
-@value colorPrimary1: hsl(205, 100%, 21%);
-@value colorPrimary2: hsl(205, 87%, 29%);
-@value colorPrimary3: hsl(205, 82%, 33%);
-@value colorPrimary4: hsl(205, 76%, 39%);
-@value colorPrimary5: hsl(205, 67%, 45%);
-@value colorPrimary6: hsl(205, 65%, 55%);
-@value colorPrimary7: hsl(205, 75%, 65%);
-@value colorPrimary8: hsl(205, 84%, 74%);
-@value colorPrimary9: hsl(205, 97%, 85%);
-@value colorPrimary10: hsl(205, 79%, 96%);
+@value colorPrimary1:     hsl(234, 62%, 26%);
+@value colorPrimary2:     hsl(232, 51%, 36%);
+@value colorPrimary3:     hsl(230, 49%, 41%);
+@value colorPrimary4:     hsl(228, 45%, 45%);
+@value colorPrimary5:     hsl(227, 42%, 51%);
+@value colorPrimary6:     hsl(227, 50%, 59%);
+@value colorPrimary7:     hsl(225, 57%, 67%);
+@value colorPrimary8:     hsl(224, 67%, 76%);
+@value colorPrimary9:     hsl(221, 78%, 86%);
+@value colorPrimary10:    hsl(221, 68%, 93%);
 
 /* Neutral colors */
-@value colorNeutral1: hsl(209, 61%, 16%);
-@value colorNeutral2: hsl(211, 39%, 23%);
-@value colorNeutral3: hsl(209, 34%, 30%);
-@value colorNeutral4: hsl(209, 28%, 39%);
-@value colorNeutral5: hsl(210, 22%, 49%);
-@value colorNeutral6: hsl(209, 23%, 60%);
-@value colorNeutral7: hsl(211, 27%, 70%);
-@value colorNeutral8: hsl(210, 31%, 80%);
-@value colorNeutral9: hsl(212, 33%, 89%);
-@value colorNeutral10: hsl(210, 36%, 96%);
+@value colorNeutral1:     hsl(210, 24%, 16%);
+@value colorNeutral2:     hsl(209, 20%, 25%);
+@value colorNeutral3:     hsl(209, 18%, 30%);
+@value colorNeutral4:     hsl(209, 14%, 37%);
+@value colorNeutral5:     hsl(211, 12%, 43%);
+@value colorNeutral6:     hsl(211, 10%, 53%);
+@value colorNeutral7:     hsl(211, 13%, 65%);
+@value colorNeutral8:     hsl(210, 16%, 82%);
+@value colorNeutral9:     hsl(214, 15%, 91%);
+@value colorNeutral10:    hsl(216, 33%, 97%);
 
 /* Accent colors (Destructive, Warning, and Positive) */
 /* Destructive colors */
-@value colorRed1: hsl(360, 92%, 20%);
-@value colorRed2: hsl(360, 85%, 25%);
-@value colorRed3: hsl(360, 79%, 32%);
-@value colorRed4: hsl(360, 72%, 38%);
-@value colorRed5: hsl(360, 67%, 44%);
-@value colorRed6: hsl(360, 64%, 55%);
-@value colorRed7: hsl(360, 71%, 66%);
-@value colorRed8: hsl(360, 77%, 78%);
-@value colorRed9: hsl(360, 82%, 89%);
-@value colorRed10: hsl(360, 100%, 97%);
+@value colorRed1:         hsl(348, 94%, 20%);
+@value colorRed2:         hsl(350, 94%, 28%);
+@value colorRed3:         hsl(352, 90%, 35%);
+@value colorRed4:         hsl(354, 85%, 44%);
+@value colorRed5:         hsl(356, 75%, 53%);
+@value colorRed6:         hsl(360, 83%, 62%);
+@value colorRed7:         hsl(360, 91%, 69%);
+@value colorRed8:         hsl(360, 100%, 80%);
+@value colorRed9:         hsl(360, 100%, 87%);
+@value colorRed10:        hsl(360, 100%, 95%);
 
 /* Warning colors */
-@value colorYellow1: 'hsl(15, 86%, 30%)';
-@value colorYellow2: 'hsl(22, 82%, 39%)';
-@value colorYellow3: 'hsl(29, 80%, 44%)';
-@value colorYellow4: 'hsl(36, 77%, 49%)';
-@value colorYellow5: 'hsl(42, 87%, 55%)';
-@value colorYellow6: 'hsl(44, 92%, 63%)';
-@value colorYellow7: 'hsl(48, 94%, 68%)';
-@value colorYellow8: 'hsl(48, 95%, 76%)';
-@value colorYellow9: 'hsl(48, 100%, 88%)';
-@value colorYellow10: 'hsl(49, 100%, 96%)';
+@value colorYellow1:      hsl(15, 86%, 30%);
+@value colorYellow2:      hsl(22, 82%, 39%);
+@value colorYellow3:      hsl(29, 80%, 44%);
+@value colorYellow4:      hsl(36, 77%, 49%);
+@value colorYellow5:      hsl(42, 87%, 55%);
+@value colorYellow6:      hsl(44, 92%, 63%);
+@value colorYellow7:      hsl(48, 94%, 68%);
+@value colorYellow8:      hsl(48, 95%, 76%);
+@value colorYellow9:      hsl(48, 100%, 88%);
+@value colorYellow10:     hsl(49, 100%, 96%);
 
 /* Positive colors */
-@value colorGreen1: hsl(184, 91%, 17%);
-@value colorGreen2: hsl(185, 84%, 25%);
-@value colorGreen3: hsl(185, 81%, 29%);
-@value colorGreen4: hsl(184, 77%, 34%);
-@value colorGreen5: hsl(185, 62%, 45%);
-@value colorGreen6: hsl(185, 57%, 50%);
-@value colorGreen7: hsl(184, 65%, 59%);
-@value colorGreen8: hsl(184, 80%, 74%);
-@value colorGreen9: hsl(184, 80%, 85%);
-@value colorGreen10: hsl(186, 100%, 94%);
+@value colorGreen1:       hsl(170, 97%, 15%);
+@value colorGreen2:       hsl(168, 80%, 23%);
+@value colorGreen3:       hsl(166, 72%, 28%);
+@value colorGreen4:       hsl(164, 71%, 34%);
+@value colorGreen5:       hsl(162, 63%, 41%);
+@value colorGreen6:       hsl(158, 58%, 62%);
+@value colorGreen7:       hsl(156, 73%, 74%);
+@value colorGreen8:       hsl(156, 73%, 74%);
+@value colorGreen9:       hsl(154, 75%, 87%);
+@value colorGreen10:      hsl(152, 68%, 96%);
 
-@value colorWhite: '#fff';
-@value colorBlack: '#000';
-@value bRadiusSm: '3px';
+/* White & Black colors */
+@value colorWhite:        hsl(0, 100%, 100%);
+@value colorBlack:        hsl(0, 0%, 0%);
+
+/* Borders */
+@value bRadiusSm:         8px;
