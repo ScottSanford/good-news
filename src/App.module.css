@@ -1,6 +1,11 @@
-@value colorNeutral5 from './theme/constants.module.css';
+@import url('https://use.typekit.net/jwl2rvr.css');
+@import url('https://use.typekit.net/jwl2rvr.css');
+
+@value colorNeutral9 from './theme/constants.module.css';
 
 .App {
-    background: colorNeutral5;
+    background: colorNeutral9;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 800;
     height: 100vh;
 }
