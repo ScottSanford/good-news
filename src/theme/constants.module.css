@@ -70,3 +70,7 @@
 
 /* Borders */
 @value bRadiusSm:         8px;
+
+/* Fonts */
+@value fontHead:          futura-pt, sans-serif;
+@value fontBody:          trade-gothic-next, sans-serif;
