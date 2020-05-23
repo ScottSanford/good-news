@@ -1,3 +1,6 @@
+@value colorPrimary1 from './theme/constants.module.css';
+
 .App {
-    text-align: center;
+    background: colorPrimary1;
+    height: 100vh;
 }

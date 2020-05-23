@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import Title from './components/Title/Title'
-import styles from './App.module.css';
+import styles from './App.module.css'
 
 function App() {
   return (
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
