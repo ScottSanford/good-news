@@ -5,6 +5,7 @@ import styles from './Navbar.module.css'
 import MenuList from './MenuList'
 
 const Navbar = () => {
+
 	const menuList = ['Tech', 'Arts', 'Politics']
 
 	return (
