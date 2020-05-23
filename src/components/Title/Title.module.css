@@ -1,7 +1,17 @@
-.main {
-    font-weight: bold;
+@value colorPrimary3, fontHead from '../../theme/constants.module.css';
+
+.Title {
+    color: colorPrimary3;
+    font-family: fontHead;
+    font-size: 5rem;
+    margin-bottom: 4rem;
 }
 
-.subhead {
-    font-weight: 400;
+.page {
+    font-weight: 800;
+}
+
+.news {
+    font-weight: 300;
+    margin-left: 1.5rem;
 }
