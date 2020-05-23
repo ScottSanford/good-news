@@ -1,11 +1,28 @@
 @import url('https://use.typekit.net/jwl2rvr.css');
 @import url('https://use.typekit.net/jwl2rvr.css');
 
-@value colorNeutral9 from './theme/constants.module.css';
+@value colorNeutral10 from './theme/constants.module.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px, 10px/16px (browser default) */
+}
 
 .App {
-    background: colorNeutral9;
+    background: colorNeutral10;
     font-family: trade-gothic-next, sans-serif;
     font-weight: 800;
     height: 100vh;
+    padding: 5rem 10rem;
 }

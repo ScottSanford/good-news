@@ -1,0 +1,20 @@
+@value colorPrimary5, colorPrimary1 from '../../theme/constants.module.css';
+
+.MenuList {
+    color: colorPrimary5;
+    display: flex;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.item:not(:last-of-type) {
+    margin-right: 6rem;
+}
+
+.item:hover {
+    color: colorPrimary1;
+    cursor: pointer;
+    transition: 0.25s;
+}
