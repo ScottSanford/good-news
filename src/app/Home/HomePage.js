@@ -2,16 +2,17 @@ import React from 'react'
 import styles from './HomePage.module.css'
 import data from './mock'
 
+import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
 import Title from '../../components/Title/Title'
 
 const HomePage = () => {
-	console.log(data)
+
+	const pageTitle = 'Explore'
+
 	return (
 		<div>
-			<Title />
-			{data.map(anArticle => {
-				return <h1 key={anArticle.created_date}>{anArticle.title}</h1>
-			})}
+			<Title title={pageTitle} />
+			<ArticleGrid articles={data} />
 		</div>
 	)
 }
