@@ -1,5 +1,4 @@
-import React from 'react'
-import styles from './HomePage.module.css'
+import React, { useState } from 'react'
 import data from './mock'
 
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
@@ -8,13 +7,17 @@ import GridSkeleton from '../../components/GridSkeleton/GridSkeleton'
 
 const HomePage = () => {
 
+	const [activeComponent, setActiveComponent] = useState(<GridSkeleton />)
 	const pageTitle = 'Explore'
+
+	setTimeout(() => {
+		setActiveComponent(<ArticleGrid articles={data} />)
+	}, 2000)
 
 	return (
 		<div>
 			<Title title={pageTitle} />
-			{/* <ArticleGrid articles={data} /> */}
-			<GridSkeleton />
+			{activeComponent}
 		</div>
 	)
 }
