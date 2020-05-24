@@ -45,7 +45,7 @@
 }
 
 .articleImplicit {
-    grid-column: 1 / -1;
+    grid-column: span 3;
 }
 
 @media only screen and (max-width: 950px) {
