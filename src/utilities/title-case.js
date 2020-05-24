@@ -1,5 +1,5 @@
 // A utility function that capitalizes the first letter of each word in a string.
-export default function titleCase(str) {
+const titleCase = (str) => {
 
 	if (str === 'us') {
 		return 'US'
@@ -12,3 +12,5 @@ export default function titleCase(str) {
 	}
 	return words.join(' ')
 }
+
+export default titleCase

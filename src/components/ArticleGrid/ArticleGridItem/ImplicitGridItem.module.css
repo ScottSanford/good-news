@@ -60,9 +60,9 @@
         bottom: -4rem;
         color: colorNeutral1;
         display: block;
-        font-size: 15rem;
+        font-size: 13rem;
         position: absolute;
         opacity: 0.05;
-        right: -4rem;
+        right: -2rem;
     }
 }

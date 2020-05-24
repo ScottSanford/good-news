@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../../logo.svg'
+import logo from '../../logo.png'
 import styles from './Navbar.module.css'
 
 import MenuList from './MenuList'
 
 const Navbar = () => {
 
-	const menuList = ['Tech', 'Arts', 'Politics']
+	const menuList = ['World', 'Politics', 'Arts', 'Tech', 'Sports']
 
 	return (
 		<div className={styles.Navbar}>

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './ImplicitGridItem.module.css'
 import moment from 'moment'
 import titleCase from '../../../utilities/title-case'
+import truncate from '../../../utilities/truncate'
 
 import SectionIcon from '../../../components/SectionIcon/SectionIcon'
 
@@ -15,7 +16,7 @@ const ImplicitGridItem = ({ article, gridClass }) => {
 			<SectionIcon section={article.section} styleClass={styles.articleIcon} />
 			<img src={thumbLargeImageUrl} alt={article.title} className={styles.implicitImage} />
 			<div className={styles.articleInfo}>
-				<div className={styles.articleTitle}>{article.title}</div>
+				<div className={styles.articleTitle}>{truncate(article.title, 70)}</div>
 				<div className={styles.supportingInfo}>
 					<div className={styles.articleDate}>{fromNowDate}</div>
 					<div className={styles.articleSection}>{titleCase(article.section)}</div>

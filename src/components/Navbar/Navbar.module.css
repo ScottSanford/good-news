@@ -8,7 +8,8 @@
 }
 
 .logo {
-    height: 5rem;
+    cursor: pointer;
+    height: 10rem;
 }
 
 .Navbar__menu {
