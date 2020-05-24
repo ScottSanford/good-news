@@ -7,7 +7,8 @@ import Title from '../../components/Title/Title'
 
 const HomePage = () => {
 
-	const apiUrl = 'https://api.nytimes.com/svc/topstories/v2/world.json?api-key=LkDbPZkZVcdDjWWLSrXwAhEOfi2QD3G9'
+	const apiKey = 'LkDbPZkZVcdDjWWLSrXwAhEOfi2QD3G9'
+	const apiUrl = `https://api.nytimes.com/svc/topstories/v2/world.json?api-key=${apiKey}`
 	const pageTitle = 'Explore'
 	const { response } = useFetch(apiUrl)
 

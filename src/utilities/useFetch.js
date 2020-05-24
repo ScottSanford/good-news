@@ -16,7 +16,7 @@ const useFetch = (url, options = {}) => {
 			}
 		}
 		fetchData()
-	}, [url, options])
+	}, [])
 
 	return { response, error }
 }
