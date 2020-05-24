@@ -3,6 +3,8 @@ import styles from './ImplicitGridItem.module.css'
 import moment from 'moment'
 import titleCase from '../../../utilities/title-case'
 
+import SectionIcon from '../../../components/SectionIcon/SectionIcon'
+
 const ImplicitGridItem = ({ article, gridClass }) => {
 
 	const thumbLargeImageUrl = article.multimedia.find(image => image.format === 'thumbLarge').url
@@ -10,6 +12,7 @@ const ImplicitGridItem = ({ article, gridClass }) => {
 
 	return (
 		<div className={`${gridClass} ${styles.ImplicitGridItem}`}>
+			<SectionIcon section={article.section} styleClass={styles.articleIcon} />
 			<img src={thumbLargeImageUrl} alt={article.title} className={styles.implicitImage} />
 			<div className={styles.articleInfo}>
 				<div className={styles.articleTitle}>{article.title}</div>

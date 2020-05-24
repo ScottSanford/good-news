@@ -6,6 +6,7 @@
     cursor: pointer;
     display: flex;
     overflow: hidden;
+    position: relative;
 }
 
 .ImplicitGridItem:hover {
@@ -16,6 +17,10 @@
 .ImplicitGridItem:hover .articleTitle {
     color: colorNeutral10;
     transition: ease-in 0.2s;
+}
+
+.articleIcon {
+    display: none;
 }
 
 .articleInfo {
@@ -44,4 +49,20 @@
 
 .articleSection {
     color: colorNeutral5;
+}
+
+@media only screen and (max-width: 950px) {
+    .implicitImage {
+        display: none;
+    }
+
+    .articleIcon {
+        bottom: -4rem;
+        color: colorNeutral1;
+        display: block;
+        font-size: 15rem;
+        position: absolute;
+        opacity: 0.05;
+        right: -4rem;
+    }
 }

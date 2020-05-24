@@ -596,7 +596,7 @@ export default [
 		"short_url": "https://nyti.ms/2TKUcxh"
 	},
 	{
-		"section": "arts",
+		"section": "podcasts",
 		"subsection": "",
 		"title": "Can You Gather With God Over Zoom?",
 		"abstract": "Quakerism goes virtual, offering an intimate window into silent worship.",
@@ -674,7 +674,7 @@ export default [
 		"short_url": "https://nyti.ms/2LMlP4B"
 	},
 	{
-		"section": "arts",
+		"section": "dining",
 		"subsection": "music",
 		"title": "A Philip Glass Score Was Lost. 50 Years Later, Here It Is.",
 		"abstract": "“Music in Eight Parts” has finally been reconstructed and recorded.",
@@ -1074,5 +1074,79 @@ export default [
 			}
 		],
 		"short_url": "https://nyti.ms/2zeuwC7"
-	}
+	}, {
+		"section": "climate",
+		"subsection": "sunday",
+		"title": "No One Knows What’s Going to Happen",
+		"abstract": "Stop asking pundits to predict the future after the coronavirus. It doesn’t exist.",
+		"url": "https://www.nytimes.com/2020/05/22/opinion/sunday/coronavirus-prediction-future.html",
+		"uri": "nyt://article/c268946e-2ec5-5a10-b068-1151e9edac77",
+		"byline": "By Mark Lilla",
+		"item_type": "Article",
+		"updated_date": "2020-05-24T14:17:51-04:00",
+		"created_date": "2020-05-22T05:03:16-04:00",
+		"published_date": "2020-05-22T05:03:16-04:00",
+		"material_type_facet": "",
+		"kicker": "",
+		"des_facet": [
+			"Coronavirus (2019-nCoV)",
+			"News and News Media"
+		],
+		"org_facet": [],
+		"per_facet": [],
+		"geo_facet": [],
+		"multimedia": [
+			{
+				"url": "https://static01.nyt.com/images/2020/05/25/opinion/sunday/25lilla/24lilla-superJumbo-v2.jpg",
+				"format": "superJumbo",
+				"height": 2048,
+				"width": 1469,
+				"type": "image",
+				"subtype": "photo",
+				"caption": "",
+				"copyright": "Javier Jaén"
+			},
+			{
+				"url": "https://static01.nyt.com/images/2020/05/25/opinion/sunday/25lilla/24lilla-thumbStandard-v2.jpg",
+				"format": "Standard Thumbnail",
+				"height": 75,
+				"width": 75,
+				"type": "image",
+				"subtype": "photo",
+				"caption": "",
+				"copyright": "Javier Jaén"
+			},
+			{
+				"url": "https://static01.nyt.com/images/2020/05/25/opinion/sunday/25lilla/24lilla-thumbLarge-v2.jpg",
+				"format": "thumbLarge",
+				"height": 150,
+				"width": 150,
+				"type": "image",
+				"subtype": "photo",
+				"caption": "",
+				"copyright": "Javier Jaén"
+			},
+			{
+				"url": "https://static01.nyt.com/images/2020/05/25/opinion/sunday/25lilla/24lilla-mediumThreeByTwo210.jpg",
+				"format": "mediumThreeByTwo210",
+				"height": 140,
+				"width": 210,
+				"type": "image",
+				"subtype": "photo",
+				"caption": "",
+				"copyright": "Javier Jaén"
+			},
+			{
+				"url": "https://static01.nyt.com/images/2020/05/25/opinion/sunday/25lilla/24lilla-articleInline-v2.jpg",
+				"format": "Normal",
+				"height": 265,
+				"width": 190,
+				"type": "image",
+				"subtype": "photo",
+				"caption": "",
+				"copyright": "Javier Jaén"
+			}
+		],
+		"short_url": "https://nyti.ms/2Xn26hb"
+	},
 ]

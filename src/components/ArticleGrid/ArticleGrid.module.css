@@ -63,3 +63,9 @@
             'fourth   fourth  fourth  fifth  fifth   fifth';
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .articleImplicit {
+        grid-column: 1 / -1;
+    }
+}
