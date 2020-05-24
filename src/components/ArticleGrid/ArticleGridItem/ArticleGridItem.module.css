@@ -1,4 +1,4 @@
-@value colorNeutral10, fontHead from '../../../theme/constants.module.css';
+@value colorPrimary8, colorNeutral10, fontHead from '../../../theme/constants.module.css';
 
 .articleImage {
     border-radius: 1rem;
@@ -15,7 +15,8 @@
 }
 
 .articleInfo {
-    background: rgba(0, 0, 0, 0.66);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1rem);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     max-height: 25%;
@@ -26,11 +27,13 @@
 }
 
 .articleTitle {
+    color: colorNeutral10;
     font-family: fontHead;
     font-size: 2rem;
 }
 
 .articleDate {
+    color: colorPrimary8;
     font-size: 1.2rem;
     margin-top: 1.5rem;
 }

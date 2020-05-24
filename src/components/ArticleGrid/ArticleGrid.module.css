@@ -48,7 +48,7 @@
     grid-column: 1 / -1;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
     .parent {
         grid-template-areas:
             'first   first  first  first  first   first'
