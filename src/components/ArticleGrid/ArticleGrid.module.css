@@ -18,23 +18,26 @@
     border-radius: 1rem;
     color: colorNeutral10;
     display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.div1 {
+.article1 {
     grid-area: first;
 }
-.div2 {
+.article2 {
     grid-area: second;
 }
-.div3 {
+.article3 {
     grid-area: third;
 }
-.div4 {
+.article4 {
     grid-area: fourth;
 }
-.div5 {
+.article5 {
     grid-area: fifth;
 }
-.divImplicit {
-    grid-column: 1 / 5;
+.articleImplicit {
+    grid-column: 1 / -1;
 }
