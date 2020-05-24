@@ -1,18 +1,19 @@
-import React, { useState } from 'react'
-import data from './mock'
+import React from 'react'
+import useFetch from '../../utilities/useFetch'
 
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
-import Title from '../../components/Title/Title'
 import GridSkeleton from '../../components/GridSkeleton/GridSkeleton'
+import Title from '../../components/Title/Title'
 
 const HomePage = () => {
 
-	const [activeComponent, setActiveComponent] = useState(<ArticleGrid articles={data} />)
+	const apiUrl = 'https://api.nytimes.com/svc/topstories/v2/world.json?api-key=LkDbPZkZVcdDjWWLSrXwAhEOfi2QD3G9'
 	const pageTitle = 'Explore'
+	const { response } = useFetch(apiUrl)
 
-	// setTimeout(() => {
-	// 	setActiveComponent(<ArticleGrid articles={data} />)
-	// }, 2000)
+	const activeComponent = !response
+		? <GridSkeleton />
+		: <ArticleGrid articles={response.results} />
 
 	return (
 		<div>
