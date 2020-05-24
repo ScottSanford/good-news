@@ -16,13 +16,24 @@
 
 .articleInfo {
     background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(1rem);
+    background-color: rgba(0, 0, 0, 0.5);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     overflow: hidden;
     padding: 3rem;
     position: relative;
     width: 100%;
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports (
+    (-webkit-backdrop-filter: blur(1rem)) or (backdrop-filter: blur(1rem))
+) {
+    .articleInfo {
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-backdrop-filter: blur(1rem);
+        backdrop-filter: blur(1rem);
+    }
 }
 
 .articleTitle {
