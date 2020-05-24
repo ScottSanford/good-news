@@ -17,27 +17,33 @@
     align-items: flex-end;
     border-radius: 1rem;
     color: colorNeutral10;
+    cursor: pointer;
     display: flex;
-    position: relative;
     overflow: hidden;
+    position: relative;
     z-index: 1;
 }
 
 .article1 {
     grid-area: first;
 }
+
 .article2 {
     grid-area: second;
 }
+
 .article3 {
     grid-area: third;
 }
+
 .article4 {
     grid-area: fourth;
 }
+
 .article5 {
     grid-area: fifth;
 }
+
 .articleImplicit {
     grid-column: 1 / -1;
 }
