@@ -51,3 +51,15 @@
     font-size: 1.2rem;
     margin-top: 1.5rem;
 }
+
+@media only screen and (max-width: 950px) {
+    .articleTitle {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .articleTitle {
+        font-size: 1.6rem;
+    }
+}

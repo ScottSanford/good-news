@@ -56,6 +56,10 @@
         display: none;
     }
 
+    .articleTitle {
+        font-size: 1.7rem;
+    }
+
     .articleIcon {
         bottom: -4rem;
         color: colorNeutral1;
@@ -64,5 +68,10 @@
         position: absolute;
         opacity: 0.05;
         right: -2rem;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .articleTitle {
+        font-size: 1.6rem;
     }
 }
