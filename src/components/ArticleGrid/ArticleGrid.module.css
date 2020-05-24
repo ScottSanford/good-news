@@ -13,7 +13,11 @@
     grid-auto-rows: minmax(150px, auto);
 }
 
-.parent > * {
+.parent > .article1,
+.parent > .article2,
+.parent > .article3,
+.parent > .article4,
+.parent > .article5 {
     align-items: flex-end;
     border-radius: 1rem;
     color: colorNeutral10;

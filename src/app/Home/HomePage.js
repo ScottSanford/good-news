@@ -7,12 +7,12 @@ import GridSkeleton from '../../components/GridSkeleton/GridSkeleton'
 
 const HomePage = () => {
 
-	const [activeComponent, setActiveComponent] = useState(<GridSkeleton />)
+	const [activeComponent, setActiveComponent] = useState(<ArticleGrid articles={data} />)
 	const pageTitle = 'Explore'
 
-	setTimeout(() => {
-		setActiveComponent(<ArticleGrid articles={data} />)
-	}, 2000)
+	// setTimeout(() => {
+	// 	setActiveComponent(<ArticleGrid articles={data} />)
+	// }, 2000)
 
 	return (
 		<div>

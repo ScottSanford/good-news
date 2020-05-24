@@ -1,0 +1,35 @@
+@value colorPrimary3, colorNeutral1, colorNeutral5, colorNeutral8, fontHead from '../../../theme/constants.module.css';
+
+.ImplicitGridItem {
+    background: colorNeutral8;
+    border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.articleInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+}
+
+.supportingInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleTitle {
+    color: colorNeutral1;
+    font-family: fontHead;
+    font-size: 1.8rem;
+}
+
+.articleDate {
+    color: colorPrimary3;
+    font-size: 1.1rem;
+}
+
+.articleSection {
+    color: colorNeutral5;
+}
