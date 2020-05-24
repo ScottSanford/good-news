@@ -8,12 +8,12 @@ const ArticleGrid = ({ articles }) => {
 	return (
 		<div className={styles.parent}>
 			{articles.map((anArticle, index) => {
-				const gridClass = styles[`div${index}`]
-
+				const gridItemClass = index < 5 ? styles[`div${index + 1}`] : styles.divImplicit
+				console.log(index, gridItemClass, styles.divImplicit)
 				return <ArticleGridItem
 					key={anArticle.created_date}
 					article={anArticle}
-					gridClass={gridClass}
+					gridClass={gridItemClass}
 				/>
 			})}
 		</div>

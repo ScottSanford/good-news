@@ -10,8 +10,7 @@
         'fourth fourth fifth  fifth  third  third'
         'fourth fourth fifth  fifth  third  third';
     grid-gap: 2rem;
-    grid-auto-flow: dense;
-    grid-auto-rows: 15rem;
+    grid-auto-rows: minmax(150px, auto);
 }
 
 .parent > * {
@@ -35,4 +34,7 @@
 }
 .div5 {
     grid-area: fifth;
+}
+.divImplicit {
+    grid-column: 1 / 5;
 }
