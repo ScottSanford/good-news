@@ -41,3 +41,15 @@
 .articleImplicit {
     grid-column: 1 / -1;
 }
+
+@media only screen and (max-width: 800px) {
+    .parent {
+        grid-template-areas:
+            'first   first  first  first  first   first'
+            'first   first  first  first  first   first'
+            'second  second second  third  third  third'
+            'second  second second  third  third  third'
+            'fourth   fourth  fourth  fifth  fifth   fifth'
+            'fourth   fourth  fourth  fifth  fifth   fifth';
+    }
+}
