@@ -2,13 +2,22 @@ import React from 'react'
 import styles from './GridSkeleton.module.css'
 
 const GridSkeleton = () => {
+
+	// Repeat over Empty Article Grid Items
+	const repeatEmptyArticles = [1, 2, 3, 4, 5].map(number => {
+
+		const emptyArticleClass = `emptyArticle${number}`
+
+		return (
+			<div key={number.toString()} className={`${styles[emptyArticleClass]} ${styles.loading}`}>
+				<div className={styles.emptyArticleInfo}></div>
+			</div>
+		)
+	})
+
 	return (
 		<div className={styles.GridSkeleton}>
-			<div className={`${styles.emptyArticle1} ${styles.loading}`}></div>
-			<div className={`${styles.emptyArticle2} ${styles.loading}`}></div>
-			<div className={`${styles.emptyArticle3} ${styles.loading}`}></div>
-			<div className={`${styles.emptyArticle4} ${styles.loading}`}></div>
-			<div className={`${styles.emptyArticle5} ${styles.loading}`}></div>
+			{repeatEmptyArticles}
 		</div>
 	)
 }

@@ -16,6 +16,11 @@
 .GridSkeleton > * {
     background: colorNeutral8;
     border-radius: 1rem;
+    align-items: flex-end;
+    border-radius: 1rem;
+    display: flex;
+    position: relative;
+    z-index: 1;
 }
 
 .loading {
@@ -62,6 +67,15 @@
 
 .emptyArticle5 {
     grid-area: fifth;
+}
+
+.emptyArticleInfo {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    min-height: 25%;
+    position: relative;
+    width: 100%;
 }
 
 @media only screen and (max-width: 950px) {
