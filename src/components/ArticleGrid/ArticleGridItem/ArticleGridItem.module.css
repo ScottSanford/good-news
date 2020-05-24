@@ -15,8 +15,7 @@
 }
 
 .articleInfo {
-    background: rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8); /* 80% opacity for Firefox */
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     overflow: hidden;
@@ -30,7 +29,12 @@
     (-webkit-backdrop-filter: blur(1rem)) or (backdrop-filter: blur(1rem))
 ) {
     .articleInfo {
-        background-color: rgba(0, 0, 0, 0.5);
+        background: rgba(
+            0,
+            0,
+            0,
+            0.5
+        ); /* 50% opacity for all supporting browsers */
         -webkit-backdrop-filter: blur(1rem);
         backdrop-filter: blur(1rem);
     }
