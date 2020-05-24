@@ -34,6 +34,6 @@ html {
 
 @media only screen and (max-width: 600px) {
     .App {
-        padding: 2rem 4rem;
+        padding: 1rem 2rem;
     }
 }
