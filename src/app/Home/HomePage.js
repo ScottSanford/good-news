@@ -4,6 +4,7 @@ import data from './mock'
 
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
 import Title from '../../components/Title/Title'
+import GridSkeleton from '../../components/GridSkeleton/GridSkeleton'
 
 const HomePage = () => {
 
@@ -12,7 +13,8 @@ const HomePage = () => {
 	return (
 		<div>
 			<Title title={pageTitle} />
-			<ArticleGrid articles={data} />
+			{/* <ArticleGrid articles={data} /> */}
+			<GridSkeleton />
 		</div>
 	)
 }

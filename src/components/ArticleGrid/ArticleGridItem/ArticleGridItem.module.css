@@ -19,7 +19,6 @@
     backdrop-filter: blur(1rem);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    max-height: 25%;
     overflow: hidden;
     padding: 3rem;
     position: relative;
