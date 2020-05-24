@@ -1,10 +1,21 @@
-@value colorPrimary3, colorNeutral1, colorNeutral5, colorNeutral8, fontHead from '../../../theme/constants.module.css';
+@value colorPrimary3, colorNeutral1, colorNeutral7, colorNeutral5, colorNeutral8, colorNeutral10, fontHead from '../../../theme/constants.module.css';
 
 .ImplicitGridItem {
     background: colorNeutral8;
     border-radius: 1rem;
+    cursor: pointer;
     display: flex;
     overflow: hidden;
+}
+
+.ImplicitGridItem:hover {
+    background: colorNeutral7;
+    transition: ease-in 0.2s;
+}
+
+.ImplicitGridItem:hover .articleTitle {
+    color: colorNeutral10;
+    transition: ease-in 0.2s;
 }
 
 .articleInfo {
@@ -12,6 +23,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 1.5rem 2rem;
+    width: 100%;
 }
 
 .supportingInfo {

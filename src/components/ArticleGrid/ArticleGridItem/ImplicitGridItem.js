@@ -6,11 +6,8 @@ import titleCase from '../../../utilities/title-case'
 const ImplicitGridItem = ({ article, gridClass }) => {
 
 	const thumbLargeImageUrl = article.multimedia.find(image => image.format === 'thumbLarge').url
-
-	console.log(thumbLargeImageUrl)
-
 	const fromNowDate = moment(article.created_date).fromNow()
-	console.log(article)
+
 	return (
 		<div className={`${gridClass} ${styles.ImplicitGridItem}`}>
 			<img src={thumbLargeImageUrl} alt={article.title} className={styles.implicitImage} />

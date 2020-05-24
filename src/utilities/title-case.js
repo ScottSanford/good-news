@@ -1,3 +1,4 @@
+// A utility function that capitalizes the first letter of each word in a string.
 export default function titleCase(str) {
 
 	let words = str.toLowerCase().split(' ')
