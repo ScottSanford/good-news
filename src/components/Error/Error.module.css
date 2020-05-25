@@ -1,0 +1,24 @@
+@value constants: '../../theme/constants.module.css';
+@value colorPrimary1, colorPrimary5, fontHead, fs24, fs48 from constants;
+
+.Error {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.errorTitle {
+    color: colorPrimary1;
+    font-family: fontHead;
+    font-size: fs48;
+    margin-bottom: 2rem;
+}
+
+.errorSubtext {
+    color: colorPrimary5;
+    font-size: fs24;
+}
+
+.errorImage {
+    margin-top: 2rem;
+}
