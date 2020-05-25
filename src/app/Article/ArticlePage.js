@@ -1,15 +1,21 @@
 import React from 'react'
 import styles from './ArticlePage.module.css'
-import { useLocation } from 'react-router-dom'
+import { useHistory, useLocation } from 'react-router-dom'
 import moment from 'moment'
+import articleContent from './article-content'
 import setDocumentTitle from '../../utilities/document-title'
 
-import articleContent from './article-content'
+import Paywall from '../../components/Paywall/Paywall'
+
 
 const ArticlePage = () => {
 
+	const history = useHistory()
 	const location = useLocation()
-	console.log(location.state.article)
+	if (!location.state) {
+		history.push('/')
+	}
+	// console.log(location.state.article)
 	// Use object deconstruction to easily get access to object properties.
 	const {
 		abstract,
@@ -52,7 +58,10 @@ const ArticlePage = () => {
 					{abstract}
 					{articleContent.map((text, index) => <p key={index.toString()} className={styles.articleExtraText}>{text}</p>)}
 				</div>
+
+				<div className={styles.fader}></div>
 			</div>
+			<Paywall />
 		</div>
 	)
 }

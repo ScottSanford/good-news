@@ -9,8 +9,6 @@ const articleContent = [
 	yet we need to leverage our synergies blue money.`,
 	`Quick win drop-dead date high turnaround rate, translating our vision of having a market leading
 	platfrom for strategic high-level 30,000 ft view. Even dead cats bounce.`,
-	`Flesh that out ensure to follow requirements when developing solutions take five, punch the tree,
-	and come back in here with a clear head, so game-plan work flows.`,
 ]
 
 export default articleContent

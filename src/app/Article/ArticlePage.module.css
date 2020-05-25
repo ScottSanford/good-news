@@ -1,5 +1,5 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary1, colorNeutral5, fontHead, fs14, fs20, fs36, bpLarge from constants;
+@value colorPrimary1, colorNeutral5, colorNeutral10, fontHead, fs14, fs20, fs36, bpLarge from constants;
 
 .ArticlePage {
     display: flex;
@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     padding: 3rem 18rem 0;
+    position: relative;
 }
 
 .articleTitle {
@@ -46,6 +47,20 @@
 
 .articleExtraText {
     margin: 2rem 0;
+}
+
+.fader {
+    background: -webkit-linear-gradient(
+        top,
+        rgba(255, 255, 255, 0),
+        colorNeutral10
+    );
+    bottom: 0;
+    content: '';
+    height: 20rem;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
 
 @media only screen and (max-width: bpLarge) {

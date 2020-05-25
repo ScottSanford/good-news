@@ -1,0 +1,71 @@
+@value constants: '../../theme/constants.module.css';
+@value colorPrimary5, colorNeutral10, colorRed5, fontHead, fs36 from constants;
+
+.Paywall {
+    align-items: center;
+    background: colorPrimary5;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: colorNeutral10;
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+    padding: 3.5rem;
+}
+
+.PaywallTitle {
+    font-family: fontHead;
+    font-size: fs36;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.PaywallText {
+    font-size: 2.4rem;
+    line-height: 1.3;
+    padding: 2rem 8rem 4rem 8rem;
+    text-align: center;
+}
+
+.PaywallButton {
+    background: colorRed5;
+    border: none;
+    border-radius: 100px;
+    color: colorNeutral10;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.PaywallButton:hover .visible {
+    transform: translateY(100%);
+}
+
+.PaywallButton:hover .invisible {
+    top: 0;
+}
+
+.PaywallButton:focus {
+    outline: none;
+}
+
+.PaywallButton > * {
+    display: inline-block;
+    height: 100%;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.visible {
+    padding: 2rem 6rem;
+}
+
+.invisible {
+    left: 0;
+    padding: 2rem 0;
+    position: absolute;
+    top: -100%;
+}
