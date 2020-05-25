@@ -3,7 +3,7 @@ import styles from './Error.module.css'
 import errorImage from '../../error500.png'
 
 
-const Error = ({ menu }) => {
+const Error = () => {
 
 	return (
 		<div className={styles.Error}>

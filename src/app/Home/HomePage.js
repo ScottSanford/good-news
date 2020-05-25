@@ -10,7 +10,7 @@ const HomePage = () => {
 
 	// api key accessed through env variable
 	const apiKey = process.env.REACT_APP_NYTAPIKEY
-	const apiUrl = `https://api.nytimes.com/svc/topstorie/v2/sports.json?api-key=${apiKey}`
+	const apiUrl = `https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=${apiKey}`
 	const { response, error } = useFetch(apiUrl)
 
 	const pageTitle = 'Explore'
