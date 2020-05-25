@@ -3,26 +3,11 @@
 
 @value colorNeutral9, fontBody from './theme/constants.module.css';
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-html {
-    box-sizing: border-box;
-    font-size: 62.5%; /* 1rem = 10px, 10px/16px (browser default) */
-}
-
 .App {
     background: colorNeutral9;
     font-family: fontBody;
     font-weight: 800;
+    overflow-x: hidden;
     padding: 5rem 10rem;
 }
 
@@ -34,6 +19,6 @@ html {
 
 @media only screen and (max-width: 600px) {
     .App {
-        padding: 1rem 2rem;
+        padding: 1rem 4rem;
     }
 }
