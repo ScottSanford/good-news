@@ -18,3 +18,9 @@
     cursor: pointer;
     transition: 0.25s;
 }
+
+@media only screen and (max-width: 950px) {
+    .MenuList {
+        display: none;
+    }
+}
