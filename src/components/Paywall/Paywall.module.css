@@ -1,5 +1,5 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary5, colorNeutral10, colorRed5, fontHead, fs36 from constants;
+@value colorPrimary5, colorNeutral10, colorGreen5, fontHead, fs36 from constants;
 
 .Paywall {
     align-items: center;
@@ -9,8 +9,9 @@
     color: colorNeutral10;
     display: flex;
     flex-direction: column;
-    margin: 0 3rem;
+    margin: 0 10rem;
     padding: 3.5rem;
+    text-align: center;
 }
 
 .PaywallTitle {
@@ -28,7 +29,7 @@
 }
 
 .PaywallButton {
-    background: colorRed5;
+    background: colorGreen5;
     border: none;
     border-radius: 100px;
     color: colorNeutral10;
@@ -68,4 +69,15 @@
     padding: 2rem 0;
     position: absolute;
     top: -100%;
+}
+
+/* Remove hover for mobile devices */
+@media (hover: none) {
+    .PaywallButton:hover .visible {
+        transform: none;
+    }
+
+    .invisible {
+        display: none;
+    }
 }
