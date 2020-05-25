@@ -1,5 +1,5 @@
 @value constants: '../../theme/constants.module.css';
-@value colorNeutral8, bpMedium from constants;
+@value colorNeutral8, bpMedium, bpSmall from constants;
 
 .GridSkeleton {
     display: grid;
@@ -80,13 +80,32 @@
 }
 
 @media only screen and (max-width: bpMedium) {
-    .parent {
+    .GridSkeleton {
         grid-template-areas:
             'first   first  first  first  first   first'
             'first   first  first  first  first   first'
+            'first   first  first  first  first   first'
             'second  second second  third  third  third'
             'second  second second  third  third  third'
-            'fourth   fourth  fourth  fifth  fifth   fifth'
-            'fourth   fourth  fourth  fifth  fifth   fifth';
+            'fourth  fourth fourth  fourth  fifth  fifth'
+            'fourth   fourth  fourth  fourth  fifth   fifth';
+    }
+}
+
+@media only screen and (max-width: bpSmall) {
+    .GridSkeleton {
+        grid-template-areas:
+            'first   first  first  first  first   first'
+            'first   first  first  first  first   first'
+            'first   first  first  first  first   first'
+            'second  second second  second  second  second'
+            'second  second second  second  second  second'
+            'third  third third  third  third  third'
+            'third  third third  third  third  third'
+            'third  third third  third  third  third'
+            'fourth  fourth fourth  fourth  fourth  fourth'
+            'fourth  fourth fourth  fourth  fourth  fourth'
+            'fifth  fifth fifth  fifth  fifth  fifth'
+            'fifth  fifth fifth  fifth  fifth  fifth';
     }
 }
