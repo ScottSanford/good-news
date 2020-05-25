@@ -13,7 +13,10 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 	const fromNowDate = moment(article.created_date).fromNow()
 
 	const handleArticleClick = () => {
-		history.push('/article/test')
+		history.push({
+			pathname: '/article',
+			state: { article }
+		})
 	}
 
 	return (

@@ -12,10 +12,10 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/article/:id" component={ArticlePage} />
+        <Route path="/article" component={ArticlePage} />
       </Switch>
     </div>
-  );
+  )
 }
 
 export default App

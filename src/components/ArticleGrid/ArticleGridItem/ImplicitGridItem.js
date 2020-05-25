@@ -13,7 +13,10 @@ const ImplicitGridItem = ({ article, gridClass }) => {
 	const thumbLargeImageUrl = article.multimedia.find(image => image.format === 'thumbLarge').url
 	const fromNowDate = moment(article.created_date).fromNow()
 	const handleArticleClick = () => {
-		history.push('/article/test')
+		history.push({
+			pathname: '/article',
+			state: { article }
+		})
 	}
 
 	return (
