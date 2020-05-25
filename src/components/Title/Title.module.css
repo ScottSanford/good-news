@@ -1,9 +1,10 @@
-@value colorPrimary3, fontHead from '../../theme/constants.module.css';
+@value constants: '../../theme/constants.module.css';
+@value colorPrimary3, fontHead, fs48 from constants;
 
 .Title {
     color: colorPrimary3;
     font-family: fontHead;
-    font-size: 4.8rem;
+    font-size: fs48;
     margin-bottom: 4rem;
 }
 

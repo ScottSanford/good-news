@@ -1,5 +1,15 @@
 @value constants: '../../../theme/constants.module.css';
-@value colorPrimary3, colorNeutral1, colorNeutral7, colorNeutral5, colorNeutral8, colorNeutral10, fontHead, bpMedium, bpSmall from constants;
+@value (colorPrimary3,
+    colorNeutral1,
+    colorNeutral7,
+    colorNeutral5,
+    colorNeutral8,
+    colorNeutral10,
+    fontHead,
+    bpMedium,
+    fs12,
+    fs18,
+    bpSmall) from constants;
 
 .ImplicitGridItem {
     background: colorNeutral8;
@@ -40,12 +50,12 @@
 .articleTitle {
     color: colorNeutral1;
     font-family: fontHead;
-    font-size: 1.8rem;
+    font-size: fs18;
 }
 
 .articleDate {
     color: colorPrimary3;
-    font-size: 1.2rem;
+    font-size: fs12;
 }
 
 .articleSection {

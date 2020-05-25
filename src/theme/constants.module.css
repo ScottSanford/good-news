@@ -74,6 +74,31 @@
 /* Fonts */
 @value fontHead:          futura-pt, sans-serif;
 @value fontBody:          trade-gothic-next, sans-serif;
+/* 
+	Fonts should scale nicely. Use these values:
+	1.2rem
+	1.4rem
+	1.6rem
+	1.8rem
+	2.0rem
+	2.4rem
+	3.0rem
+	3.6rem
+	4.8rem
+	6.0rem
+	7.2rem
+*/
+@value fs12: 1.2rem;
+@value fs14: 1.4rem;
+@value fs16: 1.6rem;
+@value fs18: 1.8rem;
+@value fs20: 2.0rem;
+@value fs24: 2.4rem;
+@value fs30: 3.0rem;
+@value fs36: 3.6rem;
+@value fs48: 4.8rem;
+@value fs60: 6.0rem;
+@value fs72: 7.2rem;
 
 /* 
 	Breakpoints

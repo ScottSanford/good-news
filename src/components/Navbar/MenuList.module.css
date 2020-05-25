@@ -1,5 +1,5 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary5, colorPrimary1, bpMedium from constants;
+@value colorPrimary5, colorPrimary1, bpMedium, fs20 from constants;
 
 .MenuList {
     color: colorPrimary5;
@@ -7,7 +7,7 @@
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: fs20;
 }
 
 .item:not(:last-of-type) {

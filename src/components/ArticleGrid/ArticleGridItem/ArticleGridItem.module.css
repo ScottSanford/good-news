@@ -1,5 +1,5 @@
 @value constants: '../../../theme/constants.module.css';
-@value colorPrimary8, colorNeutral10, fontHead, bpMedium, bpSmall from constants;
+@value colorPrimary8, colorNeutral10, fontHead, bpMedium, bpSmall, fs12, fs20 from constants;
 
 .articleImage {
     border-radius: 1rem;
@@ -44,11 +44,11 @@
 .articleTitle {
     color: colorNeutral10;
     font-family: fontHead;
-    font-size: 2rem;
+    font-size: fs20;
 }
 
 .articleDate {
     color: colorPrimary8;
-    font-size: 1.2rem;
+    font-size: fs12;
     margin-top: 1.5rem;
 }

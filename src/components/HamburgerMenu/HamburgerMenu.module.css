@@ -1,5 +1,12 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary1, colorNeutral1, colorNeutral5, colorNeutral10, fontBody, bpMedium from constants;
+@value (
+    colorPrimary1,
+    colorNeutral1,
+    colorNeutral5,
+    colorNeutral10,
+    fontBody,
+    fs24,
+    bpMedium) from constants;
 
 .HamburgerMenu {
     display: none;
@@ -111,7 +118,7 @@
 .menu li {
     padding: 1rem 0;
     font-family: fontBody;
-    font-size: 2.4rem;
+    font-size: fs24;
     font-weight: 800;
 }
 
