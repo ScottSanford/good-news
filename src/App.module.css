@@ -1,13 +1,11 @@
 @import url('https://use.typekit.net/jwl2rvr.css');
-@import url('https://use.typekit.net/jwl2rvr.css');
 
 @value constants: './theme/constants.module.css';
-@value colorNeutral9, fontBody, bpMedium, bpSmall from constants;
+@value colorNeutral10, fontBody, bpMedium, bpSmall from constants;
 
 .App {
-    background: colorNeutral9;
+    background: colorNeutral10;
     font-family: fontBody;
-    font-weight: 800;
     height: 100vh;
     overflow-x: hidden;
     padding: 5rem 10rem;

@@ -45,10 +45,12 @@
     color: colorNeutral10;
     font-family: fontHead;
     font-size: fs20;
+    font-weight: 600;
 }
 
 .articleDate {
     color: colorPrimary8;
     font-size: fs12;
+    font-weight: 300;
     margin-top: 1.5rem;
 }

@@ -1,0 +1,55 @@
+@value constants: '../../theme/constants.module.css';
+@value colorPrimary1, colorNeutral5, fontHead, fs14, fs20, fs36, bpLarge from constants;
+
+.ArticlePage {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainArticle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 18rem 0;
+}
+
+.articleTitle {
+    color: colorPrimary1;
+    font-family: fontHead;
+    font-size: fs36;
+    font-weight: normal;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.articleMeta {
+    display: flex;
+    font-size: fs14;
+    margin-top: 3rem;
+}
+
+.articleAuthor {
+    font-weight: 700;
+}
+
+.articlePublishedDate {
+    margin-left: 1.5rem;
+}
+
+.articleAbstract {
+    color: colorNeutral5;
+    font-size: fs20;
+    line-height: 1.6;
+    margin-top: 6rem;
+    padding: 0 5rem;
+}
+
+.articleExtraText {
+    margin: 2rem 0;
+}
+
+@media only screen and (max-width: bpLarge) {
+    .mainArticle {
+        padding: 3rem 8rem 0;
+    }
+}

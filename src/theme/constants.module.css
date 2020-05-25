@@ -107,5 +107,6 @@
 	bpSmall === 600px
 */
 @value bpLargest:         75em;
+@value bpLarge:           68.75em;
 @value bpMedium:          59.357em;
 @value bpSmall:           37.5em;

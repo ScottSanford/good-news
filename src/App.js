@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import styles from './App.module.css'
 
-import ArticlePage from './app/Article/Article'
+import ArticlePage from './app/Article/ArticlePage'
 import HomePage from './app/Home/HomePage'
 import Navbar from './components/Navbar/Navbar'
 
