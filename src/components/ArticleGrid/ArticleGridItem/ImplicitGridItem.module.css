@@ -1,4 +1,5 @@
-@value colorPrimary3, colorNeutral1, colorNeutral7, colorNeutral5, colorNeutral8, colorNeutral10, fontHead from '../../../theme/constants.module.css';
+@value constants: '../../../theme/constants.module.css';
+@value colorPrimary3, colorNeutral1, colorNeutral7, colorNeutral5, colorNeutral8, colorNeutral10, fontHead, bpMedium, bpSmall from constants;
 
 .ImplicitGridItem {
     background: colorNeutral8;
@@ -51,7 +52,7 @@
     color: colorNeutral5;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: bpMedium) {
     .implicitImage {
         display: none;
     }
@@ -70,7 +71,7 @@
         right: -2rem;
     }
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: bpSmall) {
     .articleTitle {
         font-size: 1.6rem;
     }

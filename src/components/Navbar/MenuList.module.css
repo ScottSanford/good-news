@@ -1,4 +1,5 @@
-@value colorPrimary5, colorPrimary1 from '../../theme/constants.module.css';
+@value constants: '../../theme/constants.module.css';
+@value colorPrimary5, colorPrimary1, bpMedium from constants;
 
 .MenuList {
     color: colorPrimary5;
@@ -19,7 +20,7 @@
     transition: 0.25s;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: bpMedium) {
     .MenuList {
         display: none;
     }

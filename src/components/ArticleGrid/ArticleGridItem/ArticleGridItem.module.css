@@ -1,4 +1,5 @@
-@value colorPrimary8, colorNeutral10, fontHead from '../../../theme/constants.module.css';
+@value constants: '../../../theme/constants.module.css';
+@value colorPrimary8, colorNeutral10, fontHead, bpMedium, bpSmall from constants;
 
 .articleImage {
     border-radius: 1rem;
@@ -52,13 +53,13 @@
     margin-top: 1.5rem;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: bpMedium) {
     .articleTitle {
         font-size: 1.8rem;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: bpSmall) {
     .articleTitle {
         font-size: 1.6rem;
     }

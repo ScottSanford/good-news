@@ -1,7 +1,8 @@
 @import url('https://use.typekit.net/jwl2rvr.css');
 @import url('https://use.typekit.net/jwl2rvr.css');
 
-@value colorNeutral9, fontBody from './theme/constants.module.css';
+@value constants: './theme/constants.module.css';
+@value colorNeutral9, fontBody, bpMedium, bpSmall from constants;
 
 .App {
     background: colorNeutral9;
@@ -11,14 +12,14 @@
     padding: 5rem 10rem;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: bpMedium) {
     .App {
         padding: 3.5rem 7rem;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: bpSmall) {
     .App {
-        padding: 1rem 4rem;
+        padding: 1rem 2.5rem;
     }
 }

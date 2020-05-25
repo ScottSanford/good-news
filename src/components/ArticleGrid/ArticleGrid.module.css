@@ -1,4 +1,5 @@
-@value colorNeutral10 from '../../theme/constants.module.css';
+@value constants: '../../theme/constants.module.css';
+@value colorNeutral10, bpLargest, bpMedium, bpSmall from constants;
 
 .parent {
     display: grid;
@@ -52,26 +53,43 @@
     grid-column: span 2;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: bpLargest) {
     .articleImplicit {
         grid-column: span 3;
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: bpMedium) {
     .parent {
         grid-template-areas:
             'first   first  first  first  first   first'
             'first   first  first  first  first   first'
+            'first   first  first  first  first   first'
             'second  second second  third  third  third'
             'second  second second  third  third  third'
-            'fourth   fourth  fourth  fifth  fifth   fifth'
-            'fourth   fourth  fourth  fifth  fifth   fifth';
+            'fourth  fourth fourth  fourth  fifth  fifth'
+            'fourth   fourth  fourth  fourth  fifth   fifth';
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: bpSmall) {
     .articleImplicit {
         grid-column: 1 / -1;
+    }
+
+    .parent {
+        grid-template-areas:
+            'first   first  first  first  first   first'
+            'first   first  first  first  first   first'
+            'first   first  first  first  first   first'
+            'second  second second  second  second  second'
+            'second  second second  second  second  second'
+            'third  third third  third  third  third'
+            'third  third third  third  third  third'
+            'third  third third  third  third  third'
+            'fourth  fourth fourth  fourth  fourth  fourth'
+            'fourth  fourth fourth  fourth  fourth  fourth'
+            'fifth  fifth fifth  fifth  fifth  fifth'
+            'fifth  fifth fifth  fifth  fifth  fifth';
     }
 }

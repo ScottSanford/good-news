@@ -74,3 +74,13 @@
 /* Fonts */
 @value fontHead:          futura-pt, sans-serif;
 @value fontBody:          trade-gothic-next, sans-serif;
+
+/* 
+	Breakpoints
+	bpLargest === 1200px
+	beMedium === 900px
+	bpSmall === 600px
+*/
+@value bpLargest:         75em;
+@value bpMedium:          59.357em;
+@value bpSmall:           37.5em;

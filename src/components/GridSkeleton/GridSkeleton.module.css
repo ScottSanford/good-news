@@ -1,4 +1,5 @@
-@value colorNeutral8 from '../../theme/constants.module.css';
+@value constants: '../../theme/constants.module.css';
+@value colorNeutral8, bpMedium from constants;
 
 .GridSkeleton {
     display: grid;
@@ -78,7 +79,7 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: bpMedium) {
     .parent {
         grid-template-areas:
             'first   first  first  first  first   first'
