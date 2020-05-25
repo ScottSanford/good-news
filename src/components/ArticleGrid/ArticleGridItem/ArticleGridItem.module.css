@@ -52,15 +52,3 @@
     font-size: 1.2rem;
     margin-top: 1.5rem;
 }
-
-@media only screen and (max-width: bpMedium) {
-    .articleTitle {
-        font-size: 1.8rem;
-    }
-}
-
-@media only screen and (max-width: bpSmall) {
-    .articleTitle {
-        font-size: 1.6rem;
-    }
-}
