@@ -15,7 +15,7 @@ const ArticlePage = () => {
 	if (!location.state) {
 		history.push('/')
 	}
-	// console.log(location.state.article)
+	console.log(location.state.article)
 	// Use object deconstruction to easily get access to object properties.
 	const {
 		abstract,

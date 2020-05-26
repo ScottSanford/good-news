@@ -1,5 +1,5 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary1, colorNeutral5, colorNeutral10, fontHead, fs14, fs20, fs36, bpLarge from constants;
+@value colorPrimary1, colorNeutral5, colorNeutral10, fontHead, fs14, fs20, fs36, bpLargest, bpLarge, bpMedium from constants;
 
 .ArticlePage {
     display: flex;
@@ -10,7 +10,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 3rem 18rem 0;
+    padding: 3rem 10rem 0;
     position: relative;
 }
 
@@ -63,8 +63,20 @@
     right: 0;
 }
 
+@media only screen and (max-width: bpLargest) {
+    .mainArticle {
+        padding: 3rem 18rem 0;
+    }
+}
+
 @media only screen and (max-width: bpLarge) {
     .mainArticle {
         padding: 3rem 8rem 0;
+    }
+}
+
+@media only screen and (max-width: bpMedium) {
+    .mainArticle {
+        padding: 3rem 5rem 0;
     }
 }

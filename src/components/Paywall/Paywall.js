@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Paywall.module.css'
 
 
-const Paywall = ({ menu }) => {
+const Paywall = () => {
 
 	return (
 		<div className={styles.Paywall}>
