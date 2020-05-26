@@ -19,7 +19,7 @@ const HamburgerMenu = ({ menuItems }) => {
 						<NavLink
 							key={anItem.section}
 							className={styles.menuLink}
-							to={`/${anItem.section}`}
+							to={`/section/${anItem.section}`}
 							activeClassName={styles.activeLink}
 							aria-current="true"
 							exact>

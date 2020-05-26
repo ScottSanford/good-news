@@ -12,7 +12,7 @@ const MenuList = ({ menu }) => {
 				{menu.map(anItem => (
 					<NavLink
 						key={anItem.section}
-						to={`/${anItem.section}`}
+						to={`/section/${anItem.section}`}
 						className={styles.item}
 						activeClassName={styles.activeLink}
 						aria-current="true"

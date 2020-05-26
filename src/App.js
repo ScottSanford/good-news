@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/:section" component={HomePage} />
+        <Route exact path="/section/:sectionId" component={HomePage} />
         <Route exact path="/:section/article" component={ArticlePage} />
         <Route exact path="/error" component={Error} />
         <Route render={() => <Redirect to={{ pathname: "/" }} />} />

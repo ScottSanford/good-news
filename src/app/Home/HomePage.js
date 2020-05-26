@@ -16,7 +16,7 @@ const HomePage = () => {
 	setDocumentTitle('Good News')
 
 	const apiKey = process.env.REACT_APP_NYTAPIKEY
-	const { response, error } = useFetch(apiUrl(params.section, apiKey))
+	const { response, error } = useFetch(apiUrl(params.sectionId, apiKey))
 
 	const pageTitle = 'Explore'
 
@@ -32,7 +32,7 @@ const HomePage = () => {
 
 	return (
 		<div>
-			<Title title={pageTitle} section={params.section} />
+			<Title title={pageTitle} section={params.sectionId} />
 			{activeComponent}
 		</div>
 	)
