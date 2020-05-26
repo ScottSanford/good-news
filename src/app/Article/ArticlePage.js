@@ -3,7 +3,6 @@ import styles from './ArticlePage.module.css'
 import { useHistory, useLocation } from 'react-router-dom'
 import moment from 'moment'
 import articleContent from './article-content'
-import setDocumentTitle from '../../utilities/document-title'
 
 import Paywall from '../../components/Paywall/Paywall'
 
@@ -24,9 +23,6 @@ const ArticlePage = () => {
 		published_date,
 		title
 	} = location.state.article
-
-	// Set the Tab title to article title (details matter)
-	setDocumentTitle(title)
 
 	const heroImage = multimedia[0].url
 	const heroImageCaption = multimedia[0].caption

@@ -11,6 +11,13 @@
     padding: 5rem 10rem;
 }
 
+/* Firefox fix for adding padding to the bottom of the page */
+.App:after {
+    content: '';
+    display: block;
+    padding-bottom: 5rem;
+}
+
 @media only screen and (max-width: bpMedium) {
     .App {
         padding: 3.5rem 7rem;

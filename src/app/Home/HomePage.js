@@ -1,6 +1,5 @@
 import React from 'react'
 import useFetch from '../../utilities/useFetch'
-import setDocumentTitle from '../../utilities/document-title'
 
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
 import Error from '../../components/Error/Error'
@@ -13,8 +12,6 @@ const HomePage = () => {
 	const apiKey = process.env.REACT_APP_NYTAPIKEY
 	const apiUrl = `https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=${apiKey}`
 	const { response, error } = useFetch(apiUrl)
-
-	setDocumentTitle('Good News | Home')
 
 	const pageTitle = 'Explore'
 	const activeComponent = error

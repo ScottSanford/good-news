@@ -73,13 +73,13 @@
     right: 0;
 }
 
-@media only screen and (max-width: bpLargest) {
-    .articleBackgroundImage {
-        height: 40rem;
+@media only screen and (min-width: bpLargest) {
+    .mainArticle {
+        padding: 3rem 22rem 0;
     }
 
-    .mainArticle {
-        padding: 3rem 18rem 0;
+    .articleAbstract {
+        padding: 0;
     }
 }
 

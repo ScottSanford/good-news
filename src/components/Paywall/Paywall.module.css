@@ -1,5 +1,5 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary5, colorNeutral10, colorGreen5, fontHead, fs36, bpMedium from constants;
+@value colorPrimary5, colorNeutral10, colorGreen5, fontHead, fs36, bpLargest, bpMedium, bpSmall from constants;
 
 .Paywall {
     align-items: center;
@@ -82,8 +82,25 @@
     }
 }
 
+@media only screen and (min-width: bpLargest) {
+    .Paywall {
+        margin: 0 18rem;
+    }
+}
+
 @media only screen and (max-width: bpMedium) {
     .Paywall {
-        margin: 0 6rem;
+        margin: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: bpSmall) {
+    .Paywall {
+        margin: -3rem 1rem 0;
+        z-index: 100;
+    }
+
+    .PaywallText {
+        padding: 2rem 0 4rem;
     }
 }
