@@ -3,6 +3,7 @@ import styles from './ArticlePage.module.css'
 import { useLocation } from 'react-router-dom'
 import moment from 'moment'
 import articleContent from './article-content'
+import setDocumentTitle from '../../utilities/document-title'
 
 import Error from '../../components/Error/Error'
 import Paywall from '../../components/Paywall/Paywall'
@@ -23,6 +24,8 @@ const ArticlePage = () => {
 		published_date,
 		title
 	} = location.state.article
+
+	setDocumentTitle(title)
 
 	const heroImage = multimedia[0].url
 	const heroImageCaption = multimedia[0].caption
