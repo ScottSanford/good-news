@@ -1,13 +1,17 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary5, colorPrimary1, bpMedium, fs20 from constants;
+@value colorPrimary5, colorPrimary1, colorGreen5, bpMedium, fs20 from constants;
 
 .MenuList {
-    color: colorPrimary5;
     display: flex;
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: fs20;
+}
+
+.item {
+    color: colorPrimary5;
+    text-decoration: none;
 }
 
 .item:not(:last-of-type) {
@@ -18,6 +22,10 @@
     color: colorPrimary1;
     cursor: pointer;
     transition: 0.25s;
+}
+
+.activeLink {
+    color: colorGreen5;
 }
 
 @media only screen and (max-width: bpMedium) {

@@ -10,11 +10,11 @@ const Navbar = () => {
 	const history = useHistory()
 
 	const menuList = [
-		{ title: 'World', section: 'world', isActive: false },
-		{ title: 'Politics', section: 'politics', isActive: false },
-		{ title: 'Arts', section: 'arts', isActive: false },
-		{ title: 'Tech', section: 'technology', isActive: false },
-		{ title: 'Sports', section: 'sports', isActive: false },
+		{ title: 'World', section: 'world' },
+		{ title: 'Politics', section: 'politics' },
+		{ title: 'Arts', section: 'arts' },
+		{ title: 'Tech', section: 'technology' },
+		{ title: 'Sports', section: 'sports' },
 	]
 	const handleLogoClick = () => history.push('/')
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import useFetch from '../../utilities/useFetch'
-import { useHistory } from 'react-router-dom'
+import { useHistory, useParams } from 'react-router-dom'
 
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
 import GridSkeleton from '../../components/GridSkeleton/GridSkeleton'
@@ -8,13 +8,19 @@ import Title from '../../components/Title/Title'
 
 const HomePage = () => {
 
+	let apiUrl
+	const apiKey = process.env.REACT_APP_NYTAPIKEY
+
 	const history = useHistory()
+	const params = useParams()
 
 	// api key accessed through env variable
-	const apiKey = process.env.REACT_APP_NYTAPIKEY
-	const apiUrl = `https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=${apiKey}`
+	if (params.section) {
+		apiUrl = `https://api.nytimes.com/svc/topstories/v2/${params.section}.json?api-key=${apiKey}`
+	} else {
+		apiUrl = `https://api.nytimes.com/svc/topstories/v2/us.json?api-key=${apiKey}`
+	}
 	const { response, error } = useFetch(apiUrl)
-
 	const pageTitle = 'Explore'
 
 	const activeComponent = error

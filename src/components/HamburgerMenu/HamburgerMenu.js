@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './HamburgerMenu.module.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const HamburgerMenu = ({ menuItems }) => {
 
@@ -15,7 +15,16 @@ const HamburgerMenu = ({ menuItems }) => {
 				<span></span>
 
 				<ul className={styles.menu}>
-					{menuItems.map(anItem => <Link key={anItem.section} className={styles.menuLink} to="/"><li className={styles.item}>{anItem.title}</li></Link>)}
+					{menuItems.map(anItem => (
+						<NavLink
+							key={anItem.section}
+							className={styles.menuLink}
+							to={`/${anItem.section}`}
+							activeClassName={styles.activeLink}
+							exact>
+							<li className={styles.item}>{anItem.title}</li>
+						</NavLink>)
+					)}
 				</ul>
 			</div>
 		</nav>

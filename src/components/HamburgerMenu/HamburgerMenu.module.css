@@ -4,13 +4,18 @@
     colorNeutral1,
     colorNeutral5,
     colorNeutral10,
-    fontBody,
+    colorGreen5,
+    fontHead,
     fs24,
     bpMedium) from constants;
 
 .HamburgerMenu {
     display: none;
     z-index: 10;
+}
+
+.activeLink .item {
+    color: colorGreen5;
 }
 
 .menuToggle {
@@ -116,10 +121,11 @@
 }
 
 .menu li {
-    padding: 1rem 0;
-    font-family: fontBody;
+    color: colorPrimary1;
+    font-family: fontHead;
     font-size: fs24;
-    font-weight: 800;
+    font-weight: 700;
+    padding: 1rem 0;
 }
 
 /*
