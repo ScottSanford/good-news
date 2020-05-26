@@ -15,6 +15,7 @@ const MenuList = ({ menu }) => {
 						to={`/${anItem.section}`}
 						className={styles.item}
 						activeClassName={styles.activeLink}
+						aria-current="true"
 						exact>
 						{anItem.title}
 					</NavLink>

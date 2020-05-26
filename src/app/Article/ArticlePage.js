@@ -16,7 +16,7 @@ const ArticlePage = () => {
 		return <Error />
 	}
 
-	// Use object deconstruction to easily get access to object properties.
+	// Use object destructuring to easily get access to object properties.
 	const {
 		abstract,
 		byline,
@@ -24,24 +24,21 @@ const ArticlePage = () => {
 		published_date,
 		title
 	} = location.state.article
+	const { caption, copyright, url } = multimedia[0]
+	const backgroundImage = { backgroundImage: `url(${url})`, }
 
 	setDocumentTitle(title)
 
-	const heroImage = multimedia[0].url
-	const heroImageCaption = multimedia[0].caption
-	const heroImageCopyright = multimedia[0].copyright
+	// Format the article date to readable format.
 	const publishedDateConverted = moment(published_date).format('MMM DD, YYYY')
 
-	const backgroundImage = {
-		backgroundImage: `url(${heroImage})`,
-	}
 
 	return (
 		<div className={styles.ArticlePage}>
 			<div style={backgroundImage} className={styles.articleBackgroundImage}>
-				<span role="img" aria-label={heroImageCaption}></span>
+				<span role="img" aria-label={caption}></span>
 			</div>
-			<div className={styles.articleImageCopyright}>{heroImageCopyright}</div>
+			<div className={styles.articleImageCopyright}>{copyright}</div>
 			<div className={styles.mainArticle}>
 				<div className={styles.articleTitle}>{title}</div>
 				<div className={styles.articleMeta}>

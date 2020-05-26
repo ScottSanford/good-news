@@ -21,6 +21,7 @@ const HamburgerMenu = ({ menuItems }) => {
 							className={styles.menuLink}
 							to={`/${anItem.section}`}
 							activeClassName={styles.activeLink}
+							aria-current="true"
 							exact>
 							<li className={styles.item}>{anItem.title}</li>
 						</NavLink>)
