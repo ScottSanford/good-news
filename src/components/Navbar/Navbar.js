@@ -8,7 +8,14 @@ import MenuList from './MenuList'
 const Navbar = () => {
 
 	const history = useHistory()
-	const menuList = ['World', 'Politics', 'Arts', 'Tech', 'Sports']
+
+	const menuList = [
+		{ title: 'World', section: 'world', isActive: false },
+		{ title: 'Politics', section: 'politics', isActive: false },
+		{ title: 'Arts', section: 'arts', isActive: false },
+		{ title: 'Tech', section: 'technology', isActive: false },
+		{ title: 'Sports', section: 'sports', isActive: false },
+	]
 	const handleLogoClick = () => history.push('/')
 
 	return (

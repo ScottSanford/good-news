@@ -21,13 +21,13 @@
     z-index: 1;
 }
 
-.menuToggle a {
+.menuToggle .menuLink {
     color: colorNeutral1;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.menuToggle a:hover {
+.menuToggle .menuLink:hover {
     color: colorPrimary1;
 }
 

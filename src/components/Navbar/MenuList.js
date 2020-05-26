@@ -7,9 +7,9 @@ const MenuList = ({ menu }) => {
 
 	return (
 		<>
-			<div className={styles.MenuList}>
-				{menu.map(anItem => <div key={anItem} className={styles.item}>{anItem}</div>)}
-			</div>
+			<nav className={styles.MenuList}>
+				{menu.map(anItem => <div key={anItem.section} className={styles.item}>{anItem.title}</div>)}
+			</nav>
 			<HamburgerMenu menuItems={menu} />
 		</>
 	)
