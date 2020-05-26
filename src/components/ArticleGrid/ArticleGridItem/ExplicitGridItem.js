@@ -24,7 +24,7 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 		 * perform API call/manage state, and create a Stateless/Dumb/UI component.
 		 */
 		history.push({
-			pathname: `/${params.section ? params.section : 'articles'}/article`,
+			pathname: `/${params.section ? params.section : 'today'}/article`,
 			state: { article }
 		})
 	}
