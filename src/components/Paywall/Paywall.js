@@ -8,7 +8,7 @@ const Paywall = () => {
 		<div className={styles.Paywall}>
 			<div className={styles.PaywallTitle}>Looks like you've enjoyed this story!</div>
 			<div className={styles.PaywallText}>
-				We all hate paywalls. We also hate bad design. Subscribe to get our latest tips and tricks.
+				We all hate paywalls. But we have to pay the bills. Subscribe to read more content.
 			</div>
 			<button className={styles.PaywallButton}>
 				<span className={styles.visible}>Subscribe</span>

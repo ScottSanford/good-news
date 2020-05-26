@@ -1,5 +1,13 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary5, colorNeutral10, colorGreen5, fontHead, fs36, bpLargest, bpMedium, bpSmall from constants;
+@value (colorPrimary5,
+colorNeutral9,
+colorNeutral10,
+colorGreen5,
+fontHead,
+fs36,
+bpLargest,
+bpMedium,
+bpSmall) from constants;
 
 .Paywall {
     align-items: center;
@@ -15,6 +23,7 @@
 }
 
 .PaywallTitle {
+    color: colorNeutral9;
     font-family: fontHead;
     font-size: fs36;
     font-weight: 600;
@@ -32,7 +41,7 @@
     background: colorGreen5;
     border: none;
     border-radius: 100px;
-    color: colorNeutral10;
+    color: currentColor;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 700;
