@@ -34,18 +34,11 @@ const ArticlePage = () => {
 
 	const backgroundImage = {
 		backgroundImage: `url(${heroImage})`,
-		backgroundPosition: 'center',
-		backgroundRepeat: 'no-repeat',
-		backgroundSize: 'cover',
-		borderRadius: '1rem',
-		boxShadow: '0 3px 6px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.12)',
-		height: '50rem',
-		width: '100%',
 	}
 
 	return (
 		<div className={styles.ArticlePage}>
-			<div style={backgroundImage}>
+			<div style={backgroundImage} className={styles.articleBackgroundImage}>
 				<span role="img" aria-label={heroImageCaption}></span>
 			</div>
 			<div className={styles.mainArticle}>
