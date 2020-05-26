@@ -1,20 +1,20 @@
 import React from 'react'
 import styles from './ArticlePage.module.css'
-import { useHistory, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import moment from 'moment'
 import articleContent from './article-content'
 
+import Error from '../../components/Error/Error'
 import Paywall from '../../components/Paywall/Paywall'
 
 
 const ArticlePage = () => {
 
-	const history = useHistory()
 	const location = useLocation()
 	if (!location.state) {
-		history.push('/')
+		return <Error />
 	}
-	console.log(location.state.article)
+
 	// Use object deconstruction to easily get access to object properties.
 	const {
 		abstract,
@@ -26,6 +26,7 @@ const ArticlePage = () => {
 
 	const heroImage = multimedia[0].url
 	const heroImageCaption = multimedia[0].caption
+	const heroImageCopyright = multimedia[0].copyright
 	const publishedDateConverted = moment(published_date).format('MMM DD, YYYY')
 
 	const backgroundImage = {
@@ -37,6 +38,7 @@ const ArticlePage = () => {
 			<div style={backgroundImage} className={styles.articleBackgroundImage}>
 				<span role="img" aria-label={heroImageCaption}></span>
 			</div>
+			<div className={styles.articleImageCopyright}>{heroImageCopyright}</div>
 			<div className={styles.mainArticle}>
 				<div className={styles.articleTitle}>{title}</div>
 				<div className={styles.articleMeta}>
