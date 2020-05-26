@@ -16,7 +16,7 @@ const ImplicitGridItem = ({ article, gridClass }) => {
 	const fromNowDate = moment(article.created_date).fromNow()
 	const handleArticleClick = () => {
 		history.push({
-			pathname: `/${params.section ? params.section : 'articles'}/article`,
+			pathname: `/${params.section ? params.section : 'today'}/article`,
 			state: { article }
 		})
 	}
