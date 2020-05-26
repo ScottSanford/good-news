@@ -22,6 +22,7 @@ const HamburgerMenu = ({ menuItems }) => {
 							to={`/section/${anItem.section}`}
 							activeClassName={styles.activeLink}
 							aria-current="true"
+							data-testid={`hamburger-${anItem.section}`}
 							exact>
 							<li className={styles.item}>{anItem.title}</li>
 						</NavLink>)

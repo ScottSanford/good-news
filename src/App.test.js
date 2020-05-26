@@ -19,9 +19,18 @@ function renderWithRouter(ui, { route = '/', history = createMemoryHistory({ ini
 
 test('full app rendering/navigating', () => {
   renderWithRouter(<App />)
-  screen.debug()
   expect(screen.getByText('today')).toBeInTheDocument()
 
-  userEvent.click(screen.getByRole('link', { name: 'Tech' }))
+  userEvent.click(screen.getByTestId('menu-technology'))
   expect(screen.getByText('technology')).toBeInTheDocument()
+
+  screen.debug()
+})
+
+test('landing on a bad page', () => {
+  renderWithRouter(<App />, {
+    route: '/something-that-does-not-match',
+  })
+
+  expect(screen.getByText('today')).toBeInTheDocument()
 })
