@@ -7,6 +7,7 @@ import { renderWithRouter } from './utilities/renderWithRouter'
 
 
 test('navigating to the Article Page', () => {
+
   renderWithRouter(<App />, {
     history: createMemoryHistory({
       initialEntries: [{ pathname: '/article', state: { article: mockData[0] } }],

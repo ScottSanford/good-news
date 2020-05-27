@@ -29,7 +29,7 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 	}
 
 	return (
-		<div className={gridClass} onClick={handleArticleClick}>
+		<div className={gridClass} onClick={handleArticleClick} data-testid="articleGrid">
 			<img src={url} alt={format} className={styles.articleImage} />
 			<div className={styles.articleInfo}>
 				<div className={styles.articleTitle}>{truncate(article.title, 65)}</div>
