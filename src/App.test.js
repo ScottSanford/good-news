@@ -6,12 +6,6 @@ import mockData from './utilities/mock-data'
 import { renderWithRouter } from './utilities/renderWithRouter'
 
 
-test('navigating to the Home Page', () => {
-
-  renderWithRouter(<App />)
-  expect(screen.getByText('today')).toBeInTheDocument()
-})
-
 test('navigating to the Article Page', () => {
   renderWithRouter(<App />, {
     history: createMemoryHistory({

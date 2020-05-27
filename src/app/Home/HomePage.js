@@ -13,7 +13,8 @@ const HomePage = () => {
 	const history = useHistory()
 	const params = useParams()
 
-	setDocumentTitle('Good News')
+	const documentTitle = 'Good News'
+	setDocumentTitle(documentTitle)
 
 	const apiKey = process.env.REACT_APP_NYTAPIKEY
 	const { response, error } = useFetch(apiUrl(params.sectionId, apiKey))
@@ -31,7 +32,7 @@ const HomePage = () => {
 			: <ArticleGrid articles={response.results} />
 
 	return (
-		<div>
+		<div data-testid="homePage">
 			<Title title={pageTitle} section={params.sectionId} />
 			{activeComponent}
 		</div>
