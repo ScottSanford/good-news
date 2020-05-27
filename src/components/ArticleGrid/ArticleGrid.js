@@ -9,7 +9,7 @@ import WrappedArticleGridItem from './ArticleGridItem/ArticleGridItem'
 const ArticleGrid = ({ articles }) => {
 
 	return (
-		<div className={styles.parent}>
+		<div className={styles.parent} data-testid="articleList">
 			{articles.map((anArticle, index) => {
 				const condition = index < 5
 				const gridItemClass = condition ? styles[`article${index + 1}`] : styles.articleImplicit

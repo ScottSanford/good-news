@@ -23,8 +23,6 @@ test('full app rendering/navigating', () => {
 
   userEvent.click(screen.getByTestId('menu-technology'))
   expect(screen.getByText('technology')).toBeInTheDocument()
-
-  screen.debug()
 })
 
 test('landing on a bad page', () => {

@@ -18,7 +18,12 @@ const useFetch = (url, options = {}) => {
 		fetchData()
 	}, [])
 
-	return { response, error }
+	return {
+		response,
+		error,
+		setResponse,
+		setError
+	}
 }
 
 export default useFetch

@@ -16,7 +16,7 @@ const GridSkeleton = () => {
 	})
 
 	return (
-		<div className={styles.GridSkeleton}>
+		<div className={styles.GridSkeleton} data-testid="loading">
 			{repeatEmptyArticles}
 		</div>
 	)
