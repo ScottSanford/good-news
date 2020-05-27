@@ -1,18 +1,10 @@
 import React from 'react'
-import { Router } from 'react-router-dom'
 import { createMemoryHistory } from 'history'
-import { render, screen } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 import App from './App'
 import mockData from './utilities/mock-data'
+import { renderWithRouter } from './utilities/renderWithRouter'
 
-
-// this is a handy function that I would utilize for any component
-// that relies on the router being in context
-function renderWithRouter(ui, { route = '/', history = createMemoryHistory({ initialEntries: [route] }) } = {}) {
-  return {
-    ...render(<Router history={history}>{ui}</Router>),
-  }
-}
 
 test('navigating to the Home Page', () => {
 
