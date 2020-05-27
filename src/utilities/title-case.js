@@ -5,6 +5,10 @@ const titleCase = (str) => {
 		return 'US'
 	}
 
+	if (str === 'nyregion') {
+		return 'NY Region'
+	}
+
 	// replace will remove the `-` between `sunday-review`
 	let words = str.replace(/\W/g, ' ').toLowerCase().split(' ')
 	for (let i = 0;i < words.length;i++) {
@@ -14,3 +18,4 @@ const titleCase = (str) => {
 }
 
 export default titleCase
+

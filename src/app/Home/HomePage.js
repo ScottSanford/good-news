@@ -1,7 +1,7 @@
 import React from 'react'
 import useFetch from '../../utilities/useFetch'
 import { useHistory, useParams } from 'react-router-dom'
-import apiUrl from './api-url'
+import apiUrl from '../../utilities/api-url'
 import setDocumentTitle from '../../utilities/document-title'
 
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
