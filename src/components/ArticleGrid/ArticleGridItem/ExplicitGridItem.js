@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './ArticleGridItem.module.css'
-import { useHistory, useParams } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import moment from 'moment'
 import truncate from '../../../utilities/truncate'
 
@@ -8,7 +8,6 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 
 	// React Router DOM
 	const history = useHistory()
-	const params = useParams()
 
 	const { format, url } = article.multimedia[0]
 	const fromNowDate = moment(article.created_date).fromNow()
@@ -24,7 +23,7 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 		 * perform API call/manage state, and create a Stateless/Dumb/UI component.
 		 */
 		history.push({
-			pathname: `/${params.section ? params.section : 'today'}/article`,
+			pathname: `/article`,
 			state: { article }
 		})
 	}

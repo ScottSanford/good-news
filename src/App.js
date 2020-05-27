@@ -8,14 +8,15 @@ import HomePage from './app/Home/HomePage'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
+
   return (
     <div className={styles.App}>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={HomePage} />
         <Route exact path="/section/:sectionId" component={HomePage} />
-        <Route exact path="/:section/article" component={ArticlePage} />
+        <Route exact path="/article" component={ArticlePage} />
         <Route exact path="/error" component={Error} />
+        <Route exact path="/" component={HomePage} />
         <Route render={() => <Redirect to={{ pathname: "/" }} />} />
       </Switch>
     </div>

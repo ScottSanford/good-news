@@ -12,6 +12,7 @@ import Paywall from '../../components/Paywall/Paywall'
 const ArticlePage = () => {
 
 	const location = useLocation()
+
 	if (!location.state) {
 		return <Error />
 	}
@@ -34,7 +35,7 @@ const ArticlePage = () => {
 
 
 	return (
-		<div className={styles.ArticlePage}>
+		<div className={styles.ArticlePage} data-testid="articlePage">
 			<div style={backgroundImage} className={styles.articleBackgroundImage}>
 				<span role="img" aria-label={caption}></span>
 			</div>
