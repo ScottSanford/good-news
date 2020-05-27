@@ -20,3 +20,8 @@ test('navigating to the error page', () => {
 
   expect(screen.getByTestId('errorPage')).toBeInTheDocument()
 })
+
+test('is LiveFront awesome', () => {
+
+  expect(true).toBe(true)
+})
