@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './ArticleGridItem.module.css'
 import { useHistory } from 'react-router-dom'
 import moment from 'moment'
+import defaultImage from '../../../news-default.png'
 import truncate from '../../../utilities/truncate'
 
 const ExplicitGridItem = ({ article, gridClass }) => {
@@ -9,7 +10,11 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 	// React Router DOM
 	const history = useHistory()
 
-	const { format, url } = article.multimedia[0]
+	// Sometimes NYT API returns null for their images :(
+	const articleImage = article.multimedia
+		? <img src={article.multimedia[0].url} alt={article.multimedia[0].format} className={styles.articleImage} />
+		: <img src={defaultImage} alt="default" className={styles.articleImage} />
+
 	const fromNowDate = moment(article.created_date).fromNow()
 
 	const handleArticleClick = () => {
@@ -30,7 +35,7 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 
 	return (
 		<div className={gridClass} onClick={handleArticleClick} data-testid="articleGrid">
-			<img src={url} alt={format} className={styles.articleImage} />
+			{articleImage}
 			<div className={styles.articleInfo}>
 				<div className={styles.articleTitle}>{truncate(article.title, 65)}</div>
 				<div className={styles.articleDate}>{fromNowDate}</div>
