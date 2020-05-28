@@ -2,6 +2,7 @@ import React from 'react'
 import useFetch from '../../utilities/useFetch'
 import { useHistory, useParams } from 'react-router-dom'
 import apiUrl from '../../utilities/api-url'
+import constants from '../../utilities/constants'
 import setDocumentTitle from '../../utilities/document-title'
 
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
@@ -12,14 +13,10 @@ const HomePage = () => {
 
 	const history = useHistory()
 	const params = useParams()
+	const { apiKey, documentTitle, pageTitle } = constants
 
-	const documentTitle = 'Good News'
 	setDocumentTitle(documentTitle)
-
-	const apiKey = process.env.REACT_APP_NYTAPIKEY
 	const { response, error } = useFetch(apiUrl(params.sectionId, apiKey))
-
-	const pageTitle = 'Explore'
 
 	const activeComponent = error
 		// if API casts an error, navigate to the Error component
