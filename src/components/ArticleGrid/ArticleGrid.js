@@ -3,8 +3,8 @@ import styles from './ArticleGrid.module.css'
 import constants from '../../utilities/constants'
 import { useHistory } from 'react-router-dom'
 
-import ExplicitGridItem from './WrappedGridArticle/ExplicitGridItem'
-import ImplicitGridItem from './WrappedGridArticle/ImplicitGridItem'
+import LargeGridArticle from './WrappedGridArticle/LargeGridArticle'
+import SmallGridArticle from './WrappedGridArticle/SmallGridArticle'
 import WrappedGridArticle from './WrappedGridArticle/WrappedGridArticle'
 
 
@@ -34,8 +34,8 @@ const ArticleGrid = ({ articles }) => {
 				}
 
 				return isATopArticle(index)
-					? WrappedGridArticle(ExplicitGridItem, passThroughProps)
-					: WrappedGridArticle(ImplicitGridItem, passThroughProps)
+					? WrappedGridArticle(LargeGridArticle, passThroughProps)
+					: WrappedGridArticle(SmallGridArticle, passThroughProps)
 			})}
 		</div>
 	)

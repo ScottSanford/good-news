@@ -6,7 +6,7 @@ import constants from '../../../utilities/constants'
 
 import ArticleGridImage from './ArticleGridImage'
 
-const ExplicitGridItem = ({ article, gridClass, onArticleClick }) => {
+const LargeGridArticle = ({ article, gridClass, onArticleClick }) => {
 
 	const { maxLargeCardTitleLength } = constants
 	const fromNowDate = moment(article.created_date).fromNow()
@@ -22,4 +22,4 @@ const ExplicitGridItem = ({ article, gridClass, onArticleClick }) => {
 	)
 }
 
-export default ExplicitGridItem
+export default LargeGridArticle

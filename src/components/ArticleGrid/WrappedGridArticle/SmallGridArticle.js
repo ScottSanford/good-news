@@ -6,9 +6,9 @@ import truncate from '../../../utilities/truncate'
 import constants from '../../../utilities/constants'
 
 import ArticleGridImage from './ArticleGridImage'
-import SectionIcon from '../../../components/SectionIcon/SectionIcon'
+import SectionIcon from '../../SectionIcon/SectionIcon'
 
-const ImplicitGridItem = ({ article, gridClass, onArticleClick }) => {
+const SmallGridArticle = ({ article, gridClass, onArticleClick }) => {
 
 	const { maxSmallCardTitleLength } = constants
 	const fromNowDate = moment(article.created_date).fromNow()
@@ -28,4 +28,4 @@ const ImplicitGridItem = ({ article, gridClass, onArticleClick }) => {
 	)
 }
 
-export default ImplicitGridItem
+export default SmallGridArticle
