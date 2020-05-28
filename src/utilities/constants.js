@@ -17,6 +17,7 @@ const constants = {
 	pageTitle: 'Explore',
 	small: 'small',
 	superJumbo: 'superJumbo',
+	topArticleIndex: 5,
 	thumbLarge: 'thumbLarge',
 }
 
