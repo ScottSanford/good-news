@@ -5,6 +5,7 @@
     colorNeutral5,
     colorNeutral10,
     colorGreen5,
+    bRadius,
     fontHead,
     fs24,
     bpMedium) from constants;
@@ -105,7 +106,7 @@
  */
 .menu {
     background: colorNeutral10;
-    border-radius: 1rem;
+    border-radius: bRadius;
     box-shadow: -4px 4px 6px hsla(0, 0%, 0%, 0.1);
     margin: -12rem 0 0 -17rem;
     padding: 5rem;

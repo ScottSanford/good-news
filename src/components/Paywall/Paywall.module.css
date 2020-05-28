@@ -3,6 +3,7 @@
 colorNeutral9,
 colorNeutral10,
 colorGreen5,
+bRadius,
 fontHead,
 fs36,
 bpLargest,
@@ -12,7 +13,7 @@ bpSmall) from constants;
 .Paywall {
     align-items: center;
     background: colorPrimary5;
-    border-radius: 1rem;
+    border-radius: bRadius;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
     color: colorNeutral10;
     display: flex;
@@ -40,7 +41,7 @@ bpSmall) from constants;
 .PaywallButton {
     background: colorGreen5;
     border: none;
-    border-radius: 100px;
+    border-radius: 10rem;
     color: currentColor;
     cursor: pointer;
     font-size: 1.5rem;

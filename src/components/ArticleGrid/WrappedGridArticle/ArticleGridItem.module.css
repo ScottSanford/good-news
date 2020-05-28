@@ -1,8 +1,8 @@
 @value constants: '../../../theme/constants.module.css';
-@value colorPrimary8, colorNeutral10, fontHead, bpMedium, bpSmall, fs12, fs20 from constants;
+@value colorPrimary8, colorNeutral10, bRadius, fontHead, bpMedium, bpSmall, fs12, fs20 from constants;
 
 .articleImage {
-    border-radius: 1rem;
+    border-radius: bRadius;
     height: 100%;
     object-fit: cover;
     position: absolute;
@@ -17,8 +17,8 @@
 
 .articleInfo {
     background: rgba(0, 0, 0, 0.8); /* 80% opacity for Firefox */
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: bRadius;
+    border-bottom-right-radius: bRadius;
     overflow: hidden;
     padding: 3rem;
     position: relative;

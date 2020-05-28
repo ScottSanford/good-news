@@ -1,5 +1,5 @@
 @value constants: '../../theme/constants.module.css';
-@value colorNeutral8, bpMedium, bpSmall from constants;
+@value colorNeutral8, bRadius, bpMedium, bpSmall from constants;
 
 .GridSkeleton {
     display: grid;
@@ -15,10 +15,9 @@
 }
 
 .GridSkeleton > * {
-    background: colorNeutral8;
-    border-radius: 1rem;
     align-items: flex-end;
-    border-radius: 1rem;
+    background: colorNeutral8;
+    border-radius: bRadius;
     display: flex;
     position: relative;
     z-index: 1;

@@ -1,5 +1,17 @@
 @value constants: '../../theme/constants.module.css';
-@value colorPrimary1, colorNeutral5, colorNeutral6, colorNeutral10, fontHead, fs14, fs20, fs36, bpLargest, bpLarge, bpMedium, bpSmall from constants;
+@value (colorPrimary1,
+colorNeutral5,
+colorNeutral6,
+colorNeutral10,
+bRadius,
+fontHead,
+fs14,
+fs20,
+fs36,
+bpLargest,
+bpLarge,
+bpMedium,
+bpSmall) from constants;
 
 .ArticlePage {
     display: flex;
@@ -10,7 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 1rem;
+    border-radius: bRadius;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.12);
     height: 50rem;
     width: 100%;
