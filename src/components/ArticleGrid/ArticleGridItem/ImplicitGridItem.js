@@ -4,14 +4,16 @@ import { useHistory } from 'react-router-dom'
 import moment from 'moment'
 import titleCase from '../../../utilities/title-case'
 import truncate from '../../../utilities/truncate'
+import constants from '../../../utilities/constants'
 
+import ArticleGridImage from './ArticleGridImage'
 import SectionIcon from '../../../components/SectionIcon/SectionIcon'
 
 const ImplicitGridItem = ({ article, gridClass }) => {
 
 	const history = useHistory()
+	const { maxSmallCardTitleLength } = constants
 
-	const thumbLargeImageUrl = article.multimedia.find(image => image.format === 'thumbLarge').url
 	const fromNowDate = moment(article.created_date).fromNow()
 	const handleArticleClick = () => {
 		history.push({
@@ -23,9 +25,9 @@ const ImplicitGridItem = ({ article, gridClass }) => {
 	return (
 		<div className={`${gridClass} ${styles.ImplicitGridItem}`} onClick={handleArticleClick}>
 			<SectionIcon section={article.section} styleClass={styles.articleIcon} />
-			<img src={thumbLargeImageUrl} alt={article.title} className={styles.implicitImage} />
+			<ArticleGridImage articleImages={article.multimedia} type="small" />
 			<div className={styles.articleInfo}>
-				<div className={styles.articleTitle}>{truncate(article.title, 70)}</div>
+				<div className={styles.articleTitle}>{truncate(article.title, maxSmallCardTitleLength)}</div>
 				<div className={styles.supportingInfo}>
 					<div className={styles.articleDate}>{fromNowDate}</div>
 					<div className={styles.articleSection}>{titleCase(article.section)}</div>

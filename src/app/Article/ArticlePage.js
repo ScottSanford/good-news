@@ -1,20 +1,23 @@
 import React from 'react'
 import styles from './ArticlePage.module.css'
-import { useLocation } from 'react-router-dom'
+import { useHistory, useLocation } from 'react-router-dom'
 import moment from 'moment'
 import articleContent from './article-content'
+import constants from '../../utilities/constants'
 import setDocumentTitle from '../../utilities/document-title'
 
-import Error from '../../components/Error/Error'
+import ArticleImage from './ArticleImage'
 import Paywall from '../../components/Paywall/Paywall'
 
 
 const ArticlePage = () => {
 
+	const history = useHistory()
 	const location = useLocation()
+	const { articleDateFormat } = constants
 
 	if (!location.state) {
-		return <Error />
+		history.push('/')
 	}
 
 	// Use object destructuring to easily get access to object properties.
@@ -25,21 +28,17 @@ const ArticlePage = () => {
 		published_date,
 		title
 	} = location.state.article
-	const { caption, copyright, url } = multimedia[0]
-	const backgroundImage = { backgroundImage: `url(${url})`, }
 
 	setDocumentTitle(title)
 
 	// Format the article date to readable format.
-	const publishedDateConverted = moment(published_date).format('MMM DD, YYYY')
+	const publishedDateConverted = moment(published_date).format(articleDateFormat)
 
 
 	return (
 		<div className={styles.ArticlePage} data-testid="articlePage">
-			<div style={backgroundImage} className={styles.articleBackgroundImage}>
-				<span role="img" aria-label={caption}></span>
-			</div>
-			<div className={styles.articleImageCopyright}>{copyright}</div>
+			<ArticleImage articleImages={multimedia} />
+			<div className={styles.articleImageCopyright}>{multimedia ? multimedia.copyright : ''}</div>
 			<div className={styles.mainArticle}>
 				<div className={styles.articleTitle}>{title}</div>
 				<div className={styles.articleMeta}>

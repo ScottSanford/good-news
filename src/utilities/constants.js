@@ -11,6 +11,7 @@ const constants = {
 	articleDateFormat: 'MMM DD, YYYY',
 	documentTitle: 'Good News',
 	large: 'large',
+	maxLargeCardTitleLength: 65,
 	maxSmallCardTitleLength: 70,
 	pageTitle: 'Explore',
 	small: 'small',

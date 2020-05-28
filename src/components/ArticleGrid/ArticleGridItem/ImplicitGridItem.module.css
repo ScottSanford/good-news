@@ -64,6 +64,11 @@
     color: colorNeutral5;
 }
 
+.implicitImage {
+    height: 15rem;
+    width: 15rem;
+}
+
 @media only screen and (max-width: bpMedium) {
     .implicitImage {
         display: none;

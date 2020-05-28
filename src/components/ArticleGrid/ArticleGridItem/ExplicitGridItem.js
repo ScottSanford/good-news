@@ -2,18 +2,16 @@ import React from 'react'
 import styles from './ArticleGridItem.module.css'
 import { useHistory } from 'react-router-dom'
 import moment from 'moment'
-import defaultImage from '../../../news-default.png'
 import truncate from '../../../utilities/truncate'
+import constants from '../../../utilities/constants'
+
+import ArticleGridImage from './ArticleGridImage'
 
 const ExplicitGridItem = ({ article, gridClass }) => {
 
 	// React Router DOM
 	const history = useHistory()
-
-	// Sometimes NYT API returns null for their images :(
-	const articleImage = article.multimedia
-		? <img src={article.multimedia[0].url} alt={article.multimedia[0].format} className={styles.articleImage} />
-		: <img src={defaultImage} alt="default" className={styles.articleImage} />
+	const { maxLargeCardTitleLength } = constants
 
 	const fromNowDate = moment(article.created_date).fromNow()
 
@@ -35,9 +33,9 @@ const ExplicitGridItem = ({ article, gridClass }) => {
 
 	return (
 		<div className={gridClass} onClick={handleArticleClick} data-testid="articleGrid">
-			{articleImage}
+			<ArticleGridImage articleImages={article.multimedia} type="large" />
 			<div className={styles.articleInfo}>
-				<div className={styles.articleTitle}>{truncate(article.title, 65)}</div>
+				<div className={styles.articleTitle}>{truncate(article.title, maxLargeCardTitleLength)}</div>
 				<div className={styles.articleDate}>{fromNowDate}</div>
 			</div>
 		</div>
