@@ -1,13 +1,17 @@
-const apiUrl = (section, apiKey) => {
+import constants from './constants'
+
+const apiUrl = (section) => {
+
+	const { apiKey, baseApiUrl } = constants
 	// wrapper function to extract New York Times API URL
 	let result
-	const baseUrl = 'https://api.nytimes.com/svc/topstories/v2'
+
 	if (section) {
 		// section when a NavLink is clicked
-		result = `${baseUrl}/${section}.json?api-key=${apiKey}`
+		result = `${baseApiUrl}/${section}.json?api-key=${encodeURI(apiKey)}`
 	} else {
 		// default root api call
-		result = `${baseUrl}/us.json?api-key=${apiKey}`
+		result = `${baseApiUrl}/us.json?api-key=${encodeURI(apiKey)}`
 	}
 
 	return result

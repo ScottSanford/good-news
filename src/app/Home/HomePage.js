@@ -13,10 +13,10 @@ const HomePage = () => {
 
 	const history = useHistory()
 	const params = useParams()
-	const { apiKey, documentTitle, pageTitle } = constants
+	const { documentTitle, pageTitle } = constants
 
 	setDocumentTitle(documentTitle)
-	const { response, error } = useFetch(apiUrl(params.sectionId, apiKey))
+	const { response, error } = useFetch(apiUrl(params.sectionId))
 
 	const activeComponent = error
 		// if API casts an error, navigate to the Error component

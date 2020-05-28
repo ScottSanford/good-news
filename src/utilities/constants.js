@@ -9,6 +9,7 @@
 const constants = {
 	apiKey: process.env.REACT_APP_NYTAPIKEY,
 	articleDateFormat: 'MMM DD, YYYY',
+	baseApiUrl: 'https://api.nytimes.com/svc/topstories/v2',
 	documentTitle: 'Good News',
 	large: 'large',
 	maxLargeCardTitleLength: 65,
