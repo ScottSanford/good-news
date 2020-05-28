@@ -1,6 +1,18 @@
 /**
  * CSS Constant variables to maintain color pallete
  * and consistency with application.
+ * 
+ * My approach to design is to have a pallete of colors
+ * as opposed to having a handful. This gives flexibility
+ * when designing and building components.
+ * 
+ * Not all the colors & color palletes were used.
+ * However, I created a color pallete that fit best
+ * for what the client needed.
+ *
+ * Using hex or RGB, colors that have a lot in common visually look nothing alike in code.
+ * HSL fixes this by representing colors using attributes
+ * the human-eye intuitively perceives: hue, saturation, and lightness.
 */
 
 /* Primary colors */
