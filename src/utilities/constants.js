@@ -17,7 +17,7 @@ const constants = {
 	pageTitle: 'Explore',
 	small: 'small',
 	superJumbo: 'superJumbo',
-	thumbLarge: 'thumbLarge'
+	thumbLarge: 'thumbLarge',
 }
 
 export default constants
