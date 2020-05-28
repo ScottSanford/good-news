@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/edde364f-1b4f-432f-95a7-934fdae68115/deploy-status)](https://app.netlify.com/sites/blissful-turing-9678ab/deploys)
 
-## Available Scripts
+[Click here for a live demo](<[https://blissful-turing-9678ab.netlify.app/](https://blissful-turing-9678ab.netlify.app/)>)
 
-In the project directory, you can run:
+<p align="center">
+  <img src="./home-page.png" width="600"/>
+</p>
 
-### `npm start`
+I treated this as a client project. It’s important to make design decisions that not only make applications modern and beautiful but to also solve problems.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Problem**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+An online newspaper company “Good News” wanted to update their website. Due to world events (Coronavirus), many customers felt stressed and anxious reading their articles. Good News was losing readership. Good News wanted to ensure their current customers were staying happy and continued subscribing.
 
-### `npm test`
+Customer addressed the following concerns with their current website:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Too many articles on one page
 
-### `npm run build`
+-   Home page was overwhelming, confusing customers
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   Articles felt “stacked on top of each other"
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Goals**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Improve the design to address the main concerns.
 
-### `npm run eject`
+**Approach**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Design Decisions:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   Use Sans-serif fonts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-   Rounded borders
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-   Professional, friendlier color palette
 
-## Learn More
+-   Good use of whitespace
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   Use of visuals (images) to display hierarchy/importance
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   Clean, Modern UI (CSS Grid)
 
-### Code Splitting
+-   Mobile Friendly
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+-   Articles on the home page were only shown if you asked for that section
 
-### Analyzing the Bundle Size
+**Results**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+I ended up with a clean and stylish website design, good “white space” utilization and attention to detail which allow to attract the target audience in a more efficient way.
 
-### Making a Progressive Web App
+**My Philosophy**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+As a Software Engineer, I have a gift that can affect people globally. The Coronavirus inspired me to make these design decisions to do what I can to make a company’s site better and more impactful. While this was a fictitious client project I believe we have a responsibility to make the world better than yesterday.
