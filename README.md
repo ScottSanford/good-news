@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/edde364f-1b4f-432f-95a7-934fdae68115/deploy-status)](https://app.netlify.com/sites/blissful-turing-9678ab/deploys)
 
-[Click here for a live demo](<[https://blissful-turing-9678ab.netlify.app/](https://blissful-turing-9678ab.netlify.app/)>)
+[Click here for a live demo](https://blissful-turing-9678ab.netlify.app/](https://blissful-turing-9678ab.netlify.app/)
 
 <p align="center">
   <img src="./home-page.png" width="600"/>
