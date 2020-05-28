@@ -1,3 +1,6 @@
+/**
+ * Mock data used for testing and initial app UI building.
+ */
 export default [
 	{
 		"section": "arts",

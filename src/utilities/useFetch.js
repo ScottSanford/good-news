@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react'
 
-const useFetch = (url, options = {}) => {
+/**
+ * Custom React Hook to fetch API data
+ * @param {string} url API Url
+ * @returns {Object}
+ * 	Object containing the response, error, and set hook methods.
+ */
+const useFetch = (url) => {
 
 	const [response, setResponse] = useState(null)
 	const [error, setError] = useState(null)
@@ -8,7 +14,7 @@ const useFetch = (url, options = {}) => {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const res = await fetch(url, options)
+				const res = await fetch(url)
 				const json = await res.json()
 				setResponse(json)
 			} catch (error) {
@@ -16,7 +22,7 @@ const useFetch = (url, options = {}) => {
 			}
 		}
 		fetchData()
-	}, [])
+	}, [url])
 
 	return {
 		response,

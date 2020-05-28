@@ -1,4 +1,8 @@
-// A utility function that capitalizes the first letter of each word in a string.
+/**
+ * A utility function that capitalizes the first letter of each word in a string.
+ * @param {string} str
+ * @returns {string}
+ */
 const titleCase = (str) => {
 
 	/**

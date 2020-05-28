@@ -1,5 +1,12 @@
 import constants from './constants'
 
+/**
+ * The utility function builds out the api url for the NYT api.
+ * @param {string} section 
+ * 	The New York Times API section type.
+ * @returns {string}
+ * 	The API String with apiKey
+ */
 const apiUrl = (section) => {
 
 	const { apiKey, baseApiUrl } = constants
