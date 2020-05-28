@@ -14,7 +14,7 @@ const ArticlePage = () => {
 
 	const history = useHistory()
 	const location = useLocation()
-	const { articleDateFormat } = constants
+	const { articleDateFormat, superJumbo } = constants
 
 	if (!location.state) {
 		history.push('/')
@@ -31,6 +31,10 @@ const ArticlePage = () => {
 
 	setDocumentTitle(title)
 
+	const imageCopyright = multimedia
+		? multimedia.find(image => image.format === superJumbo).copyright
+		: ''
+
 	// Format the article date to readable format.
 	const publishedDateConverted = moment(published_date).format(articleDateFormat)
 
@@ -38,7 +42,7 @@ const ArticlePage = () => {
 	return (
 		<div className={styles.ArticlePage} data-testid="articlePage">
 			<ArticleImage articleImages={multimedia} />
-			<div className={styles.articleImageCopyright}>{multimedia ? multimedia.copyright : ''}</div>
+			<div className={styles.articleImageCopyright}>{imageCopyright}</div>
 			<div className={styles.mainArticle}>
 				<div className={styles.articleTitle}>{title}</div>
 				<div className={styles.articleMeta}>
