@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './ArticleGrid.module.css'
 import constants from '../../utilities/constants'
+import { useHistory } from 'react-router-dom'
 
 import ExplicitGridItem from './WrappedGridArticle/ExplicitGridItem'
 import ImplicitGridItem from './WrappedGridArticle/ImplicitGridItem'
@@ -9,6 +10,7 @@ import WrappedGridArticle from './WrappedGridArticle/WrappedGridArticle'
 
 const ArticleGrid = ({ articles }) => {
 
+	const history = useHistory()
 	const { topArticleIndex } = constants
 	const isATopArticle = (index) => index < topArticleIndex
 
@@ -23,6 +25,12 @@ const ArticleGrid = ({ articles }) => {
 					key: index.toString(),
 					article: anArticle,
 					gridClass: gridItemClass,
+					onArticleClick() {
+						history.push({
+							pathname: '/article',
+							state: { article: anArticle },
+						})
+					}
 				}
 
 				return isATopArticle(index)

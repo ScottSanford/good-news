@@ -7,3 +7,4 @@ const WrappedGridArticle = (WrappedComponent, passThroughProps) => {
 }
 
 export default WrappedGridArticle
+
