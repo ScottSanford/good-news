@@ -1,6 +1,6 @@
 import React from 'react'
 import largeStyles from './ArticleGridItem.module.css'
-import smallStyles from './ImplicitGridItem.module.css'
+import smallStyles from './SmallGridArticle.module.css'
 import constants from '../../../utilities/constants'
 import defaultImage from '../../../news-default.png'
 

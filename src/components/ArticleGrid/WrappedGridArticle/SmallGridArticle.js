@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './ImplicitGridItem.module.css'
+import styles from './SmallGridArticle.module.css'
 import moment from 'moment'
 import titleCase from '../../../utilities/title-case'
 import truncate from '../../../utilities/truncate'
