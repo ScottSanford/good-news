@@ -34,7 +34,9 @@ const ArticleGrid = ({ articles }) => {
 				}
 
 				return isATopArticle(index)
+					// The first 5 articles will be displayed with full images
 					? WrappedGridArticle(LargeGridArticle, passThroughProps)
+					// After 5, articles will be in a Card Format
 					: WrappedGridArticle(SmallGridArticle, passThroughProps)
 			})}
 		</div>
