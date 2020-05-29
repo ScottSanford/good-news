@@ -51,3 +51,9 @@ I ended up with a clean and stylish website design, good “white space” utili
 **My Philosophy**
 
 As a Software Engineer, I have a gift that can affect people globally. The Coronavirus inspired me to make these design decisions to do what I can to make a company’s site better and more impactful. While this was a fictitious client project I believe we have a responsibility to make the world better than yesterday.
+
+**NOTES**
+
+The app works in Chrome, Safari, Mobile Chrome, and Mobile Safari. At the last second, I noticed a React Router bug in Firefox preventing `location.state` persisting. I believe this is an actual bug with the React Router since the behavior works as expected across all other browsers.
+
+I made sure to test on Safari to make up for a lost browser :)
