@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Error.module.css'
-import errorImage from '../../error500.png'
+import errorImage from '../../img/error500.png'
 
 
 const Error = () => {

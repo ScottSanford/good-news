@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Navbar.module.css'
 import { useHistory } from 'react-router-dom'
-import logo from '../../logo.png'
+import logo from '../../img/logo.png'
 
 import MenuList from './MenuList'
 
