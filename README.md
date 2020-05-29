@@ -56,6 +56,7 @@ As a Software Engineer, I have a gift that can affect people globally. Having be
 -   New York Times API does not return full article copy. Instead I used lorem ipsum to pretend an article existed.
 -   Handle error routing if API returned an error
 -   Firefox does not have support for blur(), used @supports
+-   If a user manually types into the url `/article`, redirect them back to the home page because the article state was not passed in
 
 **NOTES**
 

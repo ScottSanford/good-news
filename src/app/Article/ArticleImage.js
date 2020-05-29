@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './ArticlePage.module.css'
 import constants from '../../utilities/constants'
-import defaultImage from '../../news-default.png'
+import defaultImage from '../../img/news-default.png'
 
 /**
  * This ArticleImage component handles API edge case

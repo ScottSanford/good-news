@@ -2,7 +2,7 @@ import React from 'react'
 import largeStyles from './ArticleGridItem.module.css'
 import smallStyles from './SmallGridArticle.module.css'
 import constants from '../../../utilities/constants'
-import defaultImage from '../../../news-default.png'
+import defaultImage from '../../../img/news-default.png'
 
 /**
  * This ArticleGridImage component handles API edge case
