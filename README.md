@@ -52,6 +52,6 @@ As a Software Engineer, I have a gift that can affect people globally. Having be
 
 While the requirements for this application stated to include multiple browser support (specifically Google Chrome and Firefox), I encountered a bug last minute that affected the Firefox browser when clicking on an article to receive article details. I take responsibility in not completing the task at 100% of what was asked.
 
-I've identified the bug as the `location.state` object returning `undefined` when navigating to a new route while using the `forceRefresh={true}` within the React Router. All browsers work as expected but FF appears to handle this differently. I have a few solutions but would have required extensive refactoring. Google Chrome, Safari, and mobile browsers work as expected. Given more time, I would be able to solve this issue.
+I've identified the bug as the `location.state` object returning `undefined` when navigating to a new route while using the `forceRefresh={true}` within the React Router. All browsers work as expected but FF appears to handle this differently. I have a few solutions but would have required extensive refactoring. Given more time, I would be able to solve this issue.
 
-To make up for Firefox, the app works in Chrome, Safari, Opera, Mobile Chrome, and Mobile Safari.
+To make up for Firefox (and in addition to Google Chrome), I checked Safari, Opera, Mobile Chrome, and Mobile Safari.
