@@ -3,7 +3,7 @@
 [Click here for a live demo](https://blissful-turing-9678ab.netlify.app/)
 
 <p align="center">
-  <img src="./home-page.png" width="600"/>
+  <img src="./home-page.png" width="600" style="box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.12);"/>
 </p>
 
 While this was a coding challenge, I treated this as a customer/client project. Not only is it important to have clean, quality code, but to also make design decisions that solve problems.
@@ -18,6 +18,7 @@ Here was a list of concerns the company addressed, which were quotes from their 
 -   "Home page was overwhelming, confusing customers"
 -   Articles felt “stacked on top of each other"
 -   The fonts were difficult to read an article
+-   The site felt slow and laggy
 
 **Goals**
 
@@ -39,6 +40,7 @@ Here were some design decisions I've made to address the Goals & Problems for th
 -   Clean, Modern UI (CSS Grid) that imitated a old-school "newspaper" feel
 -   Mobile Friendly
 -   Articles Sections were divided up on each page (not all on one page)
+-   Use a Loading Skeleton to give the impression data was returned quicker
 
 **Results**
 
@@ -47,6 +49,13 @@ I ended up with a clean and stylish website design, good “white space” utili
 **My Philosophy**
 
 As a Software Engineer, I have a gift that can affect people globally. Having been laid off due to the Coronavirus,this inspired me to make these design decisions to do what I can to make a company’s site better and more impactful. While this was a fictitious client project I believe we have a responsibility to make the world better a better place.
+
+**Edge Cases I encounted**
+
+-   New York Times API `multimedia` property sometimes returns `null`. Used a default image if no images were available
+-   New York Times API does not return full article copy. Instead I used lorem ipsum to pretend an article existed.
+-   Handle error routing if API returned an error
+-   Firefox does not have support for blur(), used @supports
 
 **NOTES**
 
