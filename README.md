@@ -3,7 +3,7 @@
 [Click here for a live demo](https://blissful-turing-9678ab.netlify.app/)
 
 <p align="center">
-  <img src="./home-page.png" width="600" style="box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.12);"/>
+  <img src="./home-page.png" width="600"/>
 </p>
 
 While this was a coding challenge, I treated this as a customer/client project. Not only is it important to have clean, quality code, but to also make design decisions that solve problems.
