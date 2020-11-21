@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Paywall.module.css'
 
 
-const Paywall = () => {
+const Paywall: React.FC = () => {
 
 	return (
 		<div className={styles.Paywall} aria-labelledby="paywall">

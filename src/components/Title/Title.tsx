@@ -1,7 +1,12 @@
 import React from 'react'
 import styles from './Title.module.css'
 
-const Title = ({ title = 'Explore', section = 'today' }) => {
+interface TitleProps {
+	title: string
+	section: string
+}
+
+const Title: React.FC<TitleProps> = ({ title = 'Explore', section = 'today' }) => {
 
 	const conditional = section === 'world' || section === 'arts'
 	const definiteArticle = conditional ? 'the ' : ''

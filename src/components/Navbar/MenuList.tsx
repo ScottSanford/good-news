@@ -2,14 +2,18 @@ import React from 'react'
 import styles from './MenuList.module.css'
 import { NavLink } from 'react-router-dom'
 
-import HamburgerMenu from '../../components/HamburgerMenu/HamburgerMenu'
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 
-const MenuList = ({ menu }) => {
+interface MenuListProps {
+	menu: any
+}
+
+const MenuList: React.FC<MenuListProps> = ({ menu }) => {
 
 	return (
 		<>
 			<nav className={styles.MenuList}>
-				{menu.map(anItem => (
+				{menu.map((anItem: any) => (
 					<NavLink
 						key={anItem.section}
 						to={`/section/${anItem.section}`}

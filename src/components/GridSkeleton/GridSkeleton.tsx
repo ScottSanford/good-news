@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './GridSkeleton.module.css'
 
-const GridSkeleton = () => {
+const GridSkeleton: React.FC = () => {
 
 	// Repeat over Empty Article Grid Items
 	const repeatEmptyArticles = [1, 2, 3, 4, 5].map(number => {

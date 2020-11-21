@@ -21,7 +21,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 
-function sectionIcon(sectionType) {
+function sectionIcon(sectionType: string) {
 	switch (sectionType) {
 		case 'at-home':
 			return faHome
@@ -82,6 +82,11 @@ function sectionIcon(sectionType) {
 	}
 }
 
-const SectionIcon = ({ section, styleClass }) => <FontAwesomeIcon icon={sectionIcon(section)} className={styleClass} />
+interface SectionIconProps {
+	section: any
+	styleClass: string
+}
+
+const SectionIcon: React.FC<SectionIconProps> = ({ section, styleClass }) => <FontAwesomeIcon icon={sectionIcon(section)} className={styleClass} />
 
 export default SectionIcon

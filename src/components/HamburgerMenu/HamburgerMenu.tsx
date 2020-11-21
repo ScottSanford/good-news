@@ -2,7 +2,11 @@ import React from 'react'
 import styles from './HamburgerMenu.module.css'
 import { NavLink } from 'react-router-dom'
 
-const HamburgerMenu = ({ menuItems }) => {
+interface HamburgerMenuProps {
+	menuItems: any
+}
+
+const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ menuItems }) => {
 
 	return (
 		<nav role="navigation" className={styles.HamburgerMenu}>
@@ -15,7 +19,7 @@ const HamburgerMenu = ({ menuItems }) => {
 				<span></span>
 
 				<ul className={styles.menu}>
-					{menuItems.map(anItem => (
+					{menuItems.map((anItem: any) => (
 						<NavLink
 							key={anItem.section}
 							className={styles.menuLink}
