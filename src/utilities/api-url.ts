@@ -7,16 +7,17 @@ import constants from './constants'
  * @returns {string}
  * 	The API String with apiKey
  */
-const apiUrl = (section) => {
+const apiUrl = (section: string): string => {
 
 	const { apiKey, baseApiUrl } = constants
-	// wrapper function to extract New York Times API URL
-	let result
 
-	if (section) {
+	// wrapper function to extract New York Times API URL
+	let result = ''
+
+	if (section && apiKey) {
 		// section when a NavLink is clicked
 		result = `${baseApiUrl}/${section}.json?api-key=${encodeURI(apiKey)}`
-	} else {
+	} else if (apiKey) {
 		// default root api call
 		result = `${baseApiUrl}/us.json?api-key=${encodeURI(apiKey)}`
 	}

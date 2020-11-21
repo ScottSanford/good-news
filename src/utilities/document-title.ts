@@ -3,7 +3,7 @@
  * @param {string} title 
  * The title to be displayed in the browser tab
  */
-const setDocumentTitle = (title) => {
+const setDocumentTitle = (title: string) => {
 
 	document.title = title
 }

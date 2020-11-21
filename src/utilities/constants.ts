@@ -6,7 +6,23 @@
  * Since this is a smaller application, one file is fine but as the application
  * grows I might use individual files stored in each component folder.
  */
-const constants = {
+
+interface Constants {
+	apiKey: string | undefined
+	articleDateFormat: string
+	baseApiUrl: string
+	documentTitle: string
+	large: string
+	maxLargeCardTitleLength: number
+	maxSmallCardTitleLength: number
+	pageTitle: string
+	small: string
+	superJumbo: string
+	thumbLarge: string
+	topArticleIndex: number
+}
+
+const constants: Constants = {
 	apiKey: process.env.REACT_APP_NYTAPIKEY,
 	articleDateFormat: 'MMM DD, YYYY',
 	baseApiUrl: 'https://api.nytimes.com/svc/topstories/v2',
