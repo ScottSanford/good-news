@@ -29,7 +29,7 @@ export interface NYTArticle {
 	url: string
 }
 
-interface Multimedia {
+export interface Multimedia {
 	caption: string
 	copyright: string
 	format: string

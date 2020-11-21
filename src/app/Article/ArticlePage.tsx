@@ -8,19 +8,21 @@ import setDocumentTitle from '../../utilities/document-title'
 
 import ArticleImage from './ArticleImage'
 import Paywall from '../../components/Paywall/Paywall'
+import { Multimedia, NYTArticle } from '../../utilities/api'
 
+interface LocationState {
+	article: NYTArticle
+}
 
-const ArticlePage = () => {
+function ArticlePage() {
 
 	const history = useHistory()
-	const location = useLocation()
+	const location = useLocation<LocationState>()
 	const { articleDateFormat, superJumbo } = constants
 
-	if (!location.state) {
-		history.push('/')
-	}
+	if (!location.state) history.push('/')
 
-	// Use object destructuring to easily get access to object properties.
+
 	const {
 		abstract,
 		byline,
@@ -32,7 +34,8 @@ const ArticlePage = () => {
 	setDocumentTitle(title)
 
 	const imageCopyright = multimedia
-		? multimedia.find(image => image.format === superJumbo).copyright
+		// @ts-ignore
+		? multimedia.find((image: Multimedia) => image.format === superJumbo).copyright
 		: ''
 
 	// Format the article date to readable format.

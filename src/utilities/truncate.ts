@@ -4,7 +4,7 @@
  * @param {number} num Amount of character spaces to add before '...'
  * @returns the new truncated string
  */
-const truncate = (str, num) => {
+const truncate = (str: string, num: number): string => {
 	// If the length of str is less than or equal to num
 	// just return str--don't truncate it.
 	return str.length <= num

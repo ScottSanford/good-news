@@ -1,4 +1,4 @@
-const articleContent = [
+const articleContent: string[] = [
 	`Let's not solutionize this right now parking lot it dunder mifflin or let's not solutionize
 	this right now parking lot it big picture if you could do that, that would be great yet we
 	need to future-proof this quick-win. Re-inventing the wheel pulling teeth locked and loaded
