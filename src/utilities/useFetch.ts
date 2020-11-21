@@ -1,14 +1,9 @@
 import { useEffect, useState } from 'react'
 
-/**
- * Custom React Hook to fetch API data
- * @param {string} url API Url
- * @returns {Object}
- * 	Object containing the response, error, and set hook methods.
- */
-const useFetch = (url) => {
 
-	const [response, setResponse] = useState(null)
+const useFetch = (url: string) => {
+
+	const [response, setResponse] = useState<{ results: NYTResponse } | null>(null)
 	const [error, setError] = useState(null)
 
 	useEffect(() => {

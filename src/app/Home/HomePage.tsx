@@ -9,10 +9,10 @@ import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
 import GridSkeleton from '../../components/GridSkeleton/GridSkeleton'
 import Title from '../../components/Title/Title'
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
 
 	const history = useHistory()
-	const params = useParams()
+	const params = useParams<{ sectionId: string }>()
 	const { documentTitle, pageTitle } = constants
 
 	setDocumentTitle(documentTitle)
