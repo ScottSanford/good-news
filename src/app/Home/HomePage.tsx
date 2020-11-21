@@ -8,6 +8,7 @@ import setDocumentTitle from '../../utilities/document-title'
 import ArticleGrid from '../../components/ArticleGrid/ArticleGrid'
 import GridSkeleton from '../../components/GridSkeleton/GridSkeleton'
 import Title from '../../components/Title/Title'
+import { NYTResponse } from '../../utilities/api'
 
 const HomePage: React.FC = () => {
 
@@ -16,7 +17,7 @@ const HomePage: React.FC = () => {
 	const { documentTitle, pageTitle } = constants
 
 	setDocumentTitle(documentTitle)
-	const { response, error } = useFetch(apiUrl(params.sectionId))
+	const { response, error } = useFetch<NYTResponse>(apiUrl(params.sectionId))
 
 	const activeComponent = error
 		// if API casts an error, navigate to the Error component

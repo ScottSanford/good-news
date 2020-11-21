@@ -2,21 +2,25 @@ import React from 'react'
 import styles from './ArticleGrid.module.css'
 import constants from '../../utilities/constants'
 import { useHistory } from 'react-router-dom'
+import { NYTArticle } from '../../utilities/api'
 
 import LargeGridArticle from './WrappedGridArticle/LargeGridArticle'
 import SmallGridArticle from './WrappedGridArticle/SmallGridArticle'
 import WrappedGridArticle from './WrappedGridArticle/WrappedGridArticle'
 
+interface ArticleGridProps {
+	articles: NYTArticle[]
+}
 
-const ArticleGrid = ({ articles }) => {
+const ArticleGrid: React.FC<ArticleGridProps> = ({ articles }) => {
 
 	const history = useHistory()
 	const { topArticleIndex } = constants
-	const isATopArticle = (index) => index < topArticleIndex
+	const isATopArticle = (index: number) => index < topArticleIndex
 
 	return (
 		<div className={styles.parent} data-testid="articleList">
-			{articles.map((anArticle, index) => {
+			{articles.map((anArticle: NYTArticle, index: number) => {
 
 				const gridItemClass = isATopArticle(index) ? styles[`article${index + 1}`] : styles.articleImplicit
 

@@ -1,4 +1,4 @@
-interface NYTResponse {
+export interface NYTResponse {
 	copyright: string
 	last_updated: string
 	num_results: number
@@ -7,7 +7,7 @@ interface NYTResponse {
 	status: string
 }
 
-interface NYTArticle {
+export interface NYTArticle {
 	abstract: string
 	byline: string
 	created_date: string

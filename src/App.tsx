@@ -7,7 +7,7 @@ import Error from './components/Error/Error'
 import HomePage from './app/Home/HomePage'
 import Navbar from './components/Navbar/Navbar'
 
-function App() {
+const App = () => {
 
   return (
     <div className={styles.App}>

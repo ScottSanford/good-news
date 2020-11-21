@@ -1,9 +1,13 @@
 import { useEffect, useState } from 'react'
 
+interface UseFetchResponse<T> {
+	response: T | null
+	error: Error | null
+}
 
-const useFetch = (url: string) => {
+const useFetch = <T>(url: string): UseFetchResponse<T> => {
 
-	const [response, setResponse] = useState<{ results: NYTResponse } | null>(null)
+	const [response, setResponse] = useState<T | null>(null)
 	const [error, setError] = useState(null)
 
 	useEffect(() => {
@@ -19,12 +23,7 @@ const useFetch = (url: string) => {
 		fetchData()
 	}, [url])
 
-	return {
-		response,
-		error,
-		setResponse,
-		setError
-	}
+	return { response, error }
 }
 
 export default useFetch
