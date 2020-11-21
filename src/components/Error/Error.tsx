@@ -3,7 +3,7 @@ import styles from './Error.module.css'
 import errorImage from '../../img/error500.png'
 
 
-const Error = () => {
+const Error: React.FC = () => {
 
 	return (
 		<div className={styles.Error} data-testid="errorPage">

@@ -6,7 +6,13 @@ import constants from '../../../utilities/constants'
 
 import ArticleGridImage from './ArticleGridImage'
 
-const LargeGridArticle = ({ article, gridClass, onArticleClick }) => {
+interface LargeGridArticleProps {
+	article: any
+	gridClass: any
+	onArticleClick: any
+}
+
+const LargeGridArticle: React.FC<LargeGridArticleProps> = ({ article, gridClass, onArticleClick }) => {
 
 	const { maxLargeCardTitleLength } = constants
 	const fromNowDate = moment(article.created_date).fromNow()

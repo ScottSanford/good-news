@@ -8,7 +8,13 @@ import constants from '../../../utilities/constants'
 import ArticleGridImage from './ArticleGridImage'
 import SectionIcon from '../../SectionIcon/SectionIcon'
 
-const SmallGridArticle = ({ article, gridClass, onArticleClick }) => {
+interface SmallGridArticleProps {
+	article: any
+	gridClass: any
+	onArticleClick: any
+}
+
+const SmallGridArticle: React.FC<SmallGridArticleProps> = ({ article, gridClass, onArticleClick }) => {
 
 	const { maxSmallCardTitleLength } = constants
 	const fromNowDate = moment(article.created_date).fromNow()
