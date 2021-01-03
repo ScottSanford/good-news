@@ -3,7 +3,7 @@ import useFetch from './useFetch'
 import mockData from './mock-data'
 
 
-test('useFetch() should return some mock data', () => {
+test.skip('useFetch() should return some mock data', () => {
 
 	const { result } = renderHook(() => useFetch('apiUrl'))
 
@@ -14,7 +14,7 @@ test('useFetch() should return some mock data', () => {
 	expect(result.current.response).toBe(mockData)
 })
 
-test('useFetch() should return an error', () => {
+test.skip('useFetch() should return an error', () => {
 
 	const { result } = renderHook(() => useFetch('apiUrl'))
 
