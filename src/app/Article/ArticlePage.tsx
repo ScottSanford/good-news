@@ -33,7 +33,10 @@ function ArticlePage() {
 
 	setDocumentTitle(title)
 
-	const imageCopyright = multimedia[0].copyright
+	const imageCopyright = multimedia
+		// @ts-ignore
+		? multimedia.find((image: Multimedia) => image.format === superJumbo).copyright
+		: ''
 
 	// Format the article date to readable format.
 	const publishedDateConverted = moment(published_date).format(articleDateFormat)
