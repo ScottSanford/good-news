@@ -32,8 +32,8 @@ const constants: Constants = {
 	maxSmallCardTitleLength: 70,
 	pageTitle: 'Explore',
 	small: 'small',
-	superJumbo: 'superJumbo',
-	thumbLarge: 'thumbLarge',
+	superJumbo: 'Super Jumbo',
+	thumbLarge: 'Large Thumbnail',
 	topArticleIndex: 5,
 }
 
