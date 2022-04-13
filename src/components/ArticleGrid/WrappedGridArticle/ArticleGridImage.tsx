@@ -12,21 +12,18 @@ interface ArticleGridImageProps {
 
 const ArticleGridImage: React.FC<ArticleGridImageProps> = ({ articleImages, type }) => {
 
-	const { small, superJumbo, thumbLarge } = constants
+	const { small } = constants
 	const articleImageStyle = type === small ? smallStyles.implicitImage : largeStyles.articleImage
-	const imageType = type === small ? thumbLarge : superJumbo
 
-	if (articleImages) {
-		const { format, url } = articleImages.find((image: any) => image.format === imageType)
-		return <img src={url} alt={format} className={articleImageStyle} />
+	if (!articleImages) {
+		return <img
+			src={defaultImage}
+			alt="default"
+			className={articleImageStyle}
+		/>
 	}
 
-	return <img
-		src={defaultImage}
-		alt="default"
-		className={articleImageStyle}
-	/>
-
+	return <img src={articleImages[0].url} alt={articleImages[0].format} className={articleImageStyle} />
 }
 
 export default ArticleGridImage
